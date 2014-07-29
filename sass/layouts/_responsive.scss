@@ -80,6 +80,9 @@ $zen-auto-include-item-base: false;
 
   $zen-columns: 3;
 
+  #page {
+    @include zen-grid-background();
+  }
   /**
    * The layout when there is only one sidebar, the left one.
    */
@@ -157,6 +160,10 @@ $zen-auto-include-item-base: false;
 @media all and (min-width: 960px) {
 
   $zen-columns: 5;
+
+  #page {
+    @include zen-grid-background();
+  }
 
   /**
    * The layout when there is only one sidebar, the left one.
