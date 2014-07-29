@@ -1,22 +1,84 @@
-/**
- * @file
- * Styles are organized using the SMACSS technique. @see http://smacss.com/book/
- *
- * When you turn on CSS aggregation at admin/config/development/performance, all
- * of these @include files will be combined into a single file.
- */
+/*
+Syntax error: File to import not found or unreadable: zen.
+              Load paths:
+                /websites/TomVarisco/rel/sites/all/themes/varisco/sass
+                /Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.19/stylesheets
+                /websites/TomVarisco/rel/sites/all/themes/varisco/sass-extensions/zen-grids
+                Compass::SpriteImporter
+        on line 123 of /websites/TomVarisco/rel/sites/all/themes/varisco/sass/_init.scss
+        from line 10 of /websites/TomVarisco/rel/sites/all/themes/varisco/sass/styles.scss
 
-/* HTML element (SMACSS base) rules */
-@import "normalize.css";
-
-/* Layout rules */
-@import "layouts/responsive.css";
-
-/* Component (SMACSS module) rules */
-@import "components/misc.css";
-/* Optionally, add your own components here. */
-@import "print.css";
-
-/* SMACSS theme rules */
-/* @import "theme-A.css"; */
-/* @import "theme-B.css"; */
+Backtrace:
+/websites/TomVarisco/rel/sites/all/themes/varisco/sass/_init.scss:123
+/websites/TomVarisco/rel/sites/all/themes/varisco/sass/styles.scss:10
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/import_node.rb:45:in `import'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/perform.rb:283:in `visit_import'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/stack.rb:79:in `block in with_base'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/stack.rb:121:in `with_frame'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/stack.rb:79:in `with_base'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/perform.rb:297:in `block (2 levels) in visit_import'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/perform.rb:297:in `map'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/perform.rb:297:in `block in visit_import'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/stack.rb:88:in `block in with_import'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/stack.rb:121:in `with_frame'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/stack.rb:88:in `with_import'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/perform.rb:294:in `visit_import'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/stack.rb:79:in `block in with_base'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/stack.rb:121:in `with_frame'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/stack.rb:79:in `with_base'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/perform.rb:151:in `visit'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/tree/root_node.rb:20:in `render'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/engine.rb:275:in `block in render'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/util.rb:442:in `silence_sass_warnings'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.3.0/lib/sass/engine.rb:275:in `render'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:171:in `block (2 levels) in compile'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:153:in `timed'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:166:in `block in compile'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/logger.rb:46:in `red'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:165:in `compile'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:144:in `compile_if_required'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:129:in `block (2 levels) in run'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:127:in `each'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:127:in `block in run'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:153:in `timed'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:126:in `run'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/watcher/compiler.rb:24:in `compile'
+/Users/schmook/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/forwardable.rb:171:in `compile'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/watcher/project_watcher.rb:101:in `sass_modified'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/watcher/project_watcher.rb:89:in `sass_callback'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/watcher/watch.rb:14:in `call'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/watcher/watch.rb:14:in `run_callback'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/watcher/project_watcher.rb:69:in `block in listen_callback'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/watcher/project_watcher.rb:66:in `each'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-1.0.0.alpha.19/lib/compass/watcher/project_watcher.rb:66:in `listen_callback'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/listen-1.1.6/lib/listen/listener.rb:236:in `call'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/listen-1.1.6/lib/listen/listener.rb:236:in `on_change'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/listen-1.1.6/lib/listen/listener.rb:271:in `block in initialize_adapter'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/listen-1.1.6/lib/listen/adapters/polling.rb:48:in `call'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/listen-1.1.6/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/listen-1.1.6/lib/listen/adapter.rb:289:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: zen.\A               Load paths:\A                 /websites/TomVarisco/rel/sites/all/themes/varisco/sass\A                 /Users/schmook/.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.19/stylesheets\A                 /websites/TomVarisco/rel/sites/all/themes/varisco/sass-extensions/zen-grids\A                 Compass::SpriteImporter\A         on line 123 of /websites/TomVarisco/rel/sites/all/themes/varisco/sass/_init.scss\A         from line 10 of /websites/TomVarisco/rel/sites/all/themes/varisco/sass/styles.scss"; }
