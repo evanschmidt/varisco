@@ -185,7 +185,7 @@ $zen-auto-include-item-base: false;
     }
   }
   .views-responsive-grid.views-columns-4 {
-    $zen-columns:  4 !global;
+    $zen-columns:  2 !global;
     @include zen-grid-container($context: flow);
     @include zen-grid-background($grid-color: #CCC);  
     .views-column-1 {
