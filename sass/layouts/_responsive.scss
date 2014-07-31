@@ -187,7 +187,7 @@ $zen-auto-include-item-base: false;
   .views-responsive-grid.views-columns-4 {
     $zen-columns:  4 !global;
     @include zen-grid-container($context: flow);
-    //@include zen-grid-background();  
+    @include zen-grid-background($grid-color: #CCC);  
     .views-column-1 {
       @include zen-grid-item(1, 1);
     }
