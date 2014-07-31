@@ -189,17 +189,17 @@ $zen-auto-include-item-base: false;
     @include zen-grid-container($context: flow);
     @include zen-grid-background($grid-color: #CCC);  
     .views-column-1 {
-      @include zen-grid-item(2, 1);
+      @include zen-grid-item(1, 1);
     }
     .views-column-2 {
-      @include zen-grid-item(2, 3);
+      @include zen-grid-item(1, 2);
       @include zen-new-row();
     }
     .views-column-3 {
-      @include zen-grid-item(2, 1);
+      @include zen-grid-item(1, 1);
     }
     .views-column-4 {
-      @include zen-grid-item(2, 3);
+      @include zen-grid-item(1, 2);
     }
   }  
 }
