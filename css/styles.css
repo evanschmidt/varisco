@@ -1239,226 +1239,226 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003269}}
-.views-responsive-grid {
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  *word-wrap: break-word;
-  *position: relative;
-  *zoom: 1;
-}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003268}}
+  .views-responsive-grid {
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    *word-wrap: break-word;
+    *position: relative;
+    *zoom: 1;
+  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000343}}
-.views-responsive-grid:before, .views-responsive-grid:after {
-  content: "";
-  display: table;
-}
+  .views-responsive-grid:before, .views-responsive-grid:after {
+    content: "";
+    display: table;
+  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000348}}
-.views-responsive-grid:after {
-  clear: both;
-}
+  .views-responsive-grid:after {
+    clear: both;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003274}}
-.views-responsive-grid .views-row {
-  clear: left;
-}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003273}}
+  .views-responsive-grid .views-row {
+    clear: left;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003277}}
-.views-responsive-grid.views-columns-2 {
-  *position: relative;
-  *zoom: 1;
-  margin-left: -10px;
-  margin-right: -10px;
-  padding-left: 0;
-  padding-right: 0;
-}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003276}}
+  .views-responsive-grid.views-columns-2 {
+    *position: relative;
+    *zoom: 1;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000343}}
-.views-responsive-grid.views-columns-2:before, .views-responsive-grid.views-columns-2:after {
-  content: "";
-  display: table;
-}
+  .views-responsive-grid.views-columns-2:before, .views-responsive-grid.views-columns-2:after {
+    content: "";
+    display: table;
+  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000348}}
-.views-responsive-grid.views-columns-2:after {
-  clear: both;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003280}}
-.views-responsive-grid.views-columns-2 .views-column-1 {
-  float: left;
-  width: 50%;
-  margin-left: 0%;
-  margin-right: -100%;
-  *margin-right: -99.9%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  *word-wrap: break-word;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003283}}
-.views-responsive-grid.views-columns-2 .views-column-2 {
-  float: left;
-  width: 50%;
-  margin-left: 50%;
-  margin-right: -100%;
-  *margin-right: -99.9%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  *word-wrap: break-word;
-}
+  .views-responsive-grid.views-columns-2:after {
+    clear: both;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003279}}
+  .views-responsive-grid.views-columns-2 .views-column-1 {
+    float: left;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: -100%;
+    *margin-right: -99.9%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    *word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003282}}
+  .views-responsive-grid.views-columns-2 .views-column-2 {
+    float: left;
+    width: 50%;
+    margin-left: 50%;
+    margin-right: -100%;
+    *margin-right: -99.9%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    *word-wrap: break-word;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003287}}
-.views-responsive-grid.views-columns-3 {
-  *position: relative;
-  *zoom: 1;
-  margin-left: -10px;
-  margin-right: -10px;
-  padding-left: 0;
-  padding-right: 0;
-}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003286}}
+  .views-responsive-grid.views-columns-3 {
+    *position: relative;
+    *zoom: 1;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000343}}
-.views-responsive-grid.views-columns-3:before, .views-responsive-grid.views-columns-3:after {
-  content: "";
-  display: table;
-}
+  .views-responsive-grid.views-columns-3:before, .views-responsive-grid.views-columns-3:after {
+    content: "";
+    display: table;
+  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000348}}
-.views-responsive-grid.views-columns-3:after {
-  clear: both;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003290}}
-.views-responsive-grid.views-columns-3 .views-column-1 {
-  float: left;
-  width: 33.33333%;
-  margin-left: 0%;
-  margin-right: -100%;
-  *margin-right: -99.9%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  *word-wrap: break-word;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003293}}
-.views-responsive-grid.views-columns-3 .views-column-2 {
-  float: left;
-  width: 33.33333%;
-  margin-left: 33.33333%;
-  margin-right: -100%;
-  *margin-right: -99.9%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  *word-wrap: break-word;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003296}}
-.views-responsive-grid.views-columns-3 .views-column-3 {
-  float: left;
-  width: 33.33333%;
-  margin-left: 66.66667%;
-  margin-right: -100%;
-  *margin-right: -99.9%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  *word-wrap: break-word;
-}
+  .views-responsive-grid.views-columns-3:after {
+    clear: both;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003289}}
+  .views-responsive-grid.views-columns-3 .views-column-1 {
+    float: left;
+    width: 33.33333%;
+    margin-left: 0%;
+    margin-right: -100%;
+    *margin-right: -99.9%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    *word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003292}}
+  .views-responsive-grid.views-columns-3 .views-column-2 {
+    float: left;
+    width: 33.33333%;
+    margin-left: 33.33333%;
+    margin-right: -100%;
+    *margin-right: -99.9%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    *word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003295}}
+  .views-responsive-grid.views-columns-3 .views-column-3 {
+    float: left;
+    width: 33.33333%;
+    margin-left: 66.66667%;
+    margin-right: -100%;
+    *margin-right: -99.9%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    *word-wrap: break-word;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003300}}
-.views-responsive-grid.views-columns-4 {
-  *position: relative;
-  *zoom: 1;
-  margin-left: -10px;
-  margin-right: -10px;
-  padding-left: 0;
-  padding-right: 0;
-}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003299}}
+  .views-responsive-grid.views-columns-4 {
+    *position: relative;
+    *zoom: 1;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000343}}
-.views-responsive-grid.views-columns-4:before, .views-responsive-grid.views-columns-4:after {
-  content: "";
-  display: table;
-}
+  .views-responsive-grid.views-columns-4:before, .views-responsive-grid.views-columns-4:after {
+    content: "";
+    display: table;
+  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000348}}
-.views-responsive-grid.views-columns-4:after {
-  clear: both;
+  .views-responsive-grid.views-columns-4:after {
+    clear: both;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003303}}
+  .views-responsive-grid.views-columns-4 .views-column-1 {
+    float: left;
+    width: 25%;
+    margin-left: 0%;
+    margin-right: -100%;
+    *margin-right: -99.9%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    *word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003306}}
+  .views-responsive-grid.views-columns-4 .views-column-2 {
+    float: left;
+    width: 25%;
+    margin-left: 25%;
+    margin-right: -100%;
+    *margin-right: -99.9%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    *word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003309}}
+  .views-responsive-grid.views-columns-4 .views-column-3 {
+    float: left;
+    width: 25%;
+    margin-left: 50%;
+    margin-right: -100%;
+    *margin-right: -99.9%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    *word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003312}}
+  .views-responsive-grid.views-columns-4 .views-column-4 {
+    float: left;
+    width: 25%;
+    margin-left: 75%;
+    margin-right: -100%;
+    *margin-right: -99.9%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    *word-wrap: break-word;
+  }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003304}}
-.views-responsive-grid.views-columns-4 .views-column-1 {
-  float: left;
-  width: 25%;
-  margin-left: 0%;
-  margin-right: -100%;
-  *margin-right: -99.9%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  *word-wrap: break-word;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003307}}
-.views-responsive-grid.views-columns-4 .views-column-2 {
-  float: left;
-  width: 25%;
-  margin-left: 25%;
-  margin-right: -100%;
-  *margin-right: -99.9%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  *word-wrap: break-word;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003310}}
-.views-responsive-grid.views-columns-4 .views-column-3 {
-  float: left;
-  width: 25%;
-  margin-left: 50%;
-  margin-right: -100%;
-  *margin-right: -99.9%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  *word-wrap: break-word;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003313}}
-.views-responsive-grid.views-columns-4 .views-column-4 {
-  float: left;
-  width: 25%;
-  margin-left: 75%;
-  margin-right: -100%;
-  *margin-right: -99.9%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  *word-wrap: break-word;
-}
-
 /* Component (SMACSS module) rules */
 /**
  * @file
