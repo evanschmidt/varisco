@@ -174,7 +174,7 @@ $zen-auto-include-item-base: false;
   .views-responsive-grid.views-columns-3 {
     $zen-columns:  2 !global;
     @include zen-grid-container($context: flow);
-    //@include zen-grid-background();
+    @include zen-grid-background();
       .views-row {
         width:49%;
         float:left;
