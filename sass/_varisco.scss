@@ -23,3 +23,35 @@
 	}
   }
 }
+.mean-container {
+  .mean-bar {
+    background: none repeat scroll 0 0 transparent;
+  }
+  a.meanmenu-reveal {
+    background: none repeat scroll 0 0 $gray;
+    span {
+      background: none repeat scroll 0 0 #FFFFFF;
+      display: block;
+    }
+    span.mean-head {
+      background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+      color: $orange;
+    }
+  }
+  .mean-nav {
+    background: none repeat scroll 0 0 $gray;
+    h2 {
+      color: $orange;
+    }
+    ul li a {
+      background: none repeat scroll 0 0 $gray;
+      color: $orange;
+    }
+    ul li a:hover {
+      background: none repeat scroll 0 0 $gray;
+    }
+    ul li a.mean-expand:hover {
+      background: none repeat scroll 0 0 $gray;
+    }  
+  }
+}
