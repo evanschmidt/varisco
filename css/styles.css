@@ -1063,9 +1063,8 @@ table {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     *word-wrap: break-word;
-    clear: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003197}}
   .views-responsive-grid.views-columns-4 .views-column-3 {
     float: left;
     width: 50%;
@@ -1079,6 +1078,7 @@ table {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     *word-wrap: break-word;
+    clear: left;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003201}}
   .views-responsive-grid.views-columns-4 .views-column-4 {

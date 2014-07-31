@@ -193,10 +193,10 @@ $zen-auto-include-item-base: false;
     }
     .views-column-2 {
       @include zen-grid-item(1, 2);
-      @include zen-new-row();
     }
     .views-column-3 {
       @include zen-grid-item(1, 1);
+      @include zen-new-row();
     }
     .views-column-4 {
       @include zen-grid-item(1, 2);
