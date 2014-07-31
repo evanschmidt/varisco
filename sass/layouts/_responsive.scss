@@ -186,7 +186,7 @@ $zen-auto-include-item-base: false;
   .views-responsive-grid.views-columns-4 {
     $zen-columns:  4 !global;
     @include zen-grid-container($context: flow);
-    //@include zen-grid-background();  
+    @include zen-grid-background();  
     .views-column-1 {
       @include zen-grid-item(1, 1);
     }
@@ -196,7 +196,6 @@ $zen-auto-include-item-base: false;
     }
     .views-column-3 {
       @include zen-grid-item(1, 1);
-      @include zen-new-row();
     }
     .views-column-4 {
       @include zen-grid-item(1, 2);
