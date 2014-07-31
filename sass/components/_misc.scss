@@ -104,13 +104,13 @@
 .header__site-link {
   &:link,
   &:visited {
-    color: #000;
+    color: $orange;
     text-decoration: none;
   }
 
   &:hover,
   &:focus {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
