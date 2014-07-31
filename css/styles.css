@@ -644,7 +644,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\0000360}}
   #main {
     /* Move all the children of #main down to make room. */
-    padding-top: 3em;
+    padding-top: 0em;
     position: relative;
   }
 
@@ -653,7 +653,7 @@ table {
     /* Move the navbar up inside #main's padding. */
     position: absolute;
     top: 0;
-    height: 3em;
+    height: 0em;
     width: 100%;
   }
 }
