@@ -970,12 +970,12 @@ table {
     clear: both;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003178}}
-  .views-responsive-grid.views-columns-3 .views-columns {
+  .views-responsive-grid.views-columns-3 .views-row {
     width: 49%;
     float: left;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003181}}
-  .views-responsive-grid.views-columns-3 .views-columns:nth-child(2n - 1) {
+  .views-responsive-grid.views-columns-3 .views-row:nth-child(2n - 1) {
     margin-right: 2%;
   }
 
@@ -1000,7 +1000,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003190}}
   .views-responsive-grid.views-columns-4 .views-column-1 {
     float: left;
-    width: 25%;
+    width: 50%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -1015,8 +1015,8 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003193}}
   .views-responsive-grid.views-columns-4 .views-column-2 {
     float: left;
-    width: 25%;
-    margin-left: 25%;
+    width: 50%;
+    margin-left: 50%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
@@ -1031,7 +1031,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003197}}
   .views-responsive-grid.views-columns-4 .views-column-3 {
     float: left;
-    width: 25%;
+    width: 50%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -1046,8 +1046,8 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003200}}
   .views-responsive-grid.views-columns-4 .views-column-4 {
     float: left;
-    width: 25%;
-    margin-left: 25%;
+    width: 50%;
+    margin-left: 50%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
