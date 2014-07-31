@@ -184,16 +184,22 @@ $zen-auto-include-item-base: false;
       }
   }
   .views-responsive-grid.views-columns-4 {
-    $zen-columns:  2 !global;
+    $zen-columns:  4 !global;
     @include zen-grid-container($context: flow);
-    @include zen-grid-background();
-      .views-row {
-        width:49%;
-        float:left;
-        &:nth-child(2n - 1) {
-          margin-right:2%;
-        }
-      }
+    //@include zen-grid-background();  
+    .views-column-1 {
+      @include zen-grid-item(1, 1);
+    }
+    .views-column-2 {
+      @include zen-grid-item(1, 2);
+      @include zen-new-row();
+    }
+    .views-column-3 {
+      @include zen-grid-item(1, 1);
+    }
+    .views-column-4 {
+      @include zen-grid-item(1, 2);
+    }
   }  
 }
 
