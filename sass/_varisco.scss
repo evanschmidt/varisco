@@ -22,6 +22,11 @@
 .page__title {
   display: none;
 }
+.page-node .page__title {
+  color: $dark-orange;
+  display: block;
+}
+
 #block-system-main-menu {
   ul {
   	  font-size: 3em;
