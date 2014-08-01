@@ -25,8 +25,15 @@
 .page-node .page__title {
   color: $dark-orange;
   display: block;
+  font-size: 1.25em;
 }
-
+.field-name-field-project-description {
+	border-top: 1px solid $somecolor;
+	border-bottom: 1px solid $gray;
+	color: $dark-gray;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
 #block-system-main-menu {
   ul {
   	  font-size: 3em;
