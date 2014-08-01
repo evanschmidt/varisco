@@ -2410,7 +2410,7 @@ tr.selected td {
   text-decoration: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000335}}
-#block-system-main-menu ul li a:hover {
+#block-system-main-menu ul li a:hover, #block-system-main-menu ul li a.active-trail {
   color: #da6a27;
 }
 
