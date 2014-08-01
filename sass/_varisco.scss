@@ -17,7 +17,10 @@
 	color: $dark-orange;
 }
 #content {
-	margin-top: -2em;
+	margin-top: 0em;
+}
+.page__title {
+  display: none;
 }
 #block-system-main-menu {
   ul {
