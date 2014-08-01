@@ -2407,71 +2407,69 @@ tr.selected td {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000330}}
 .field-name-field-project-description {
   border-top: 1px solid #9c9a9a;
-  border-bottom: 1px solid #717272;
+  border-bottom: 1px solid #9c9a9a;
   color: #494849;
-  padding-top: 1em;
-  padding-bottom: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000336}}
 #block-system-main-menu ul {
   font-size: 3em;
   line-height: 1em;
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000341}}
 #block-system-main-menu ul li {
   list-style: none;
   list-style-position: outside;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000344}}
 #block-system-main-menu ul li a {
   color: #717272;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000348}}
 #block-system-main-menu ul li a:hover, #block-system-main-menu ul li a.active-trail {
   color: #da6a27;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000355}}
 .mean-container .mean-bar {
   background: none repeat scroll 0 0 transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000358}}
 .mean-container a.meanmenu-reveal {
   background: none repeat scroll 0 0 #717272;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000360}}
 .mean-container a.meanmenu-reveal span {
   background: none repeat scroll 0 0 #FFFFFF;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000364}}
 .mean-container a.meanmenu-reveal span.mean-head {
   background: none repeat scroll 0 0 transparent;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000369}}
 .mean-container .mean-nav {
   background: none repeat scroll 0 0 #717272;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000371}}
 .mean-container .mean-nav h2 {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000374}}
 .mean-container .mean-nav ul li a {
   background: none repeat scroll 0 0 #717272;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000378}}
 .mean-container .mean-nav ul li a:hover {
   background: none repeat scroll 0 0 #717272;
   color: #da6a27;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000382}}
 .mean-container .mean-nav ul li a.mean-expand:hover {
   background: none repeat scroll 0 0 #717272;
 }
