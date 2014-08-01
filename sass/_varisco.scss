@@ -11,7 +11,7 @@
 .header__site-name {
   font-size: 1em;
   line-height: 1.5em;
-  margin: 2em 2em 0;
+  margin: 2em 1.5em 0;
 }
 .views-field-title {
 	color: $dark-orange;
@@ -20,6 +20,7 @@
   ul {
   	  font-size: 3em;
       line-height: 1em;
+      margin: 0;
 	  padding: 0;
 	li {
 	  list-style: none;
