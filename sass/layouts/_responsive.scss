@@ -214,7 +214,7 @@ $zen-auto-include-item-base: false;
   #page {
     //@include zen-grid-background();
   }
-  .block-views-project-images-block {
+  #block-views-project-images-block {
     @include zen-grid-item(4, 2);    
   }
   /**
