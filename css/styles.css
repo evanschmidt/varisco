@@ -1107,7 +1107,7 @@ table {
  */
 @media all and (min-width: 960px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003217}}
-  #block-views-project-images-block {
+  .region-highlighted {
     *position: relative;
     *zoom: 1;
     float: left;
@@ -1125,12 +1125,12 @@ table {
     clear: left;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000343}}
-  #block-views-project-images-block:before, #block-views-project-images-block:after {
+  .region-highlighted:before, .region-highlighted:after {
     content: "";
     display: table;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000348}}
-  #block-views-project-images-block:after {
+  .region-highlighted:after {
     clear: both;
   }
 

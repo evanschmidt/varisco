@@ -214,7 +214,7 @@ $zen-auto-include-item-base: false;
   #page {
     //@include zen-grid-background();
   }
-  #block-views-project-images-block {
+.region-highlighted {
     @include zen-grid-container($context: none);
     @include zen-grid-item(5, 1);    
     @include zen-new-row();
