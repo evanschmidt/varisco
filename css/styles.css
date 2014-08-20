@@ -2384,7 +2384,7 @@ tr.selected td {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000312}}
-.header__site-name {
+.header__site-name, #block-system-main-menu h2 {
   font-size: 1em;
   line-height: 1.5em;
 }
