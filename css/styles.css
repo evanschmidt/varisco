@@ -606,9 +606,9 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\0000333}}
 #page,
 .region-bottom {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 100%;
 }
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
