@@ -214,7 +214,9 @@ $zen-auto-include-item-base: false;
   #page {
     //@include zen-grid-background();
   }
-
+  .block-views-project-images-block {
+    @include zen-grid-item(4, 2);    
+  }
   /**
    * The layout when there is only one sidebar, the left one.
    */
