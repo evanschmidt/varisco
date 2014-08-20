@@ -1124,8 +1124,8 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003227}}
   .sidebar-first #content {
     float: left;
-    width: 60%;
-    margin-left: 40%;
+    width: 80%;
+    margin-left: 20%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
@@ -1140,7 +1140,7 @@ table {
   .sidebar-first .region-sidebar-first {
     position: fixed;
     float: left;
-    width: 40%;
+    width: 20%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
