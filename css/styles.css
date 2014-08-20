@@ -1106,34 +1106,6 @@ table {
  * Use 5 grid columns for larger screens.
  */
 @media all and (min-width: 960px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003217}}
-  .region-highlighted {
-    *position: relative;
-    *zoom: 1;
-    float: left;
-    width: 100%;
-    margin-left: 0%;
-    margin-right: -100%;
-    *margin-right: -99.9%;
-    padding-left: 10px;
-    padding-right: 10px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    *word-wrap: break-word;
-    clear: left;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000343}}
-  .region-highlighted:before, .region-highlighted:after {
-    content: "";
-    display: table;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000348}}
-  .region-highlighted:after {
-    clear: both;
-  }
-
   /**
    * The layout when there is only one sidebar, the left one.
    */
