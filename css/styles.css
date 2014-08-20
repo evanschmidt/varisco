@@ -1109,8 +1109,8 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003217}}
   #block-views-project-images-block {
     float: left;
-    width: 80%;
-    margin-left: 20%;
+    width: 100%;
+    margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
