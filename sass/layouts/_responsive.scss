@@ -230,6 +230,7 @@ $zen-auto-include-item-base: false;
 
     /* Span 1 column, starting in 1st column from left. */
     .region-sidebar-first {
+      position: fixed;
       @include zen-grid-item(2, 1);
     }
   }
