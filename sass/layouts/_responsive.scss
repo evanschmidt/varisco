@@ -215,6 +215,7 @@ $zen-auto-include-item-base: false;
     //@include zen-grid-background();
   }
   #block-views-project-images-block {
+    @include zen-grid-container($context: flow);
     @include zen-grid-item(5, 1);    
     @include zen-new-row();
   }
