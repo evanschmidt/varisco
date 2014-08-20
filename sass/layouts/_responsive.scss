@@ -216,6 +216,7 @@ $zen-auto-include-item-base: false;
   }
   #block-views-project-images-block {
     @include zen-grid-item(5, 1);    
+    @include zen-new-row();
   }
   /**
    * The layout when there is only one sidebar, the left one.
