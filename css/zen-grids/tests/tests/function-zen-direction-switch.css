@@ -1,0 +1,17 @@
+/**
+ * @file
+ * Test zen-direction-switch()
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/tests\/tests\/function-zen-direction-switch\.scss}line{font-family:\000038}}
+#test-zen-direction-switch {
+  /* Test zen-direction-switch(left) */
+  float: right;
+  /* Test zen-direction-switch(right) */
+  float: left;
+  /* Test zen-direction-switch(both) */
+  float: both;
+  /* Test zen-direction-switch(none) */
+  float: none;
+  /* Test zen-direction-switch(invalid) */
+  float: invalid;
+}

@@ -144,7 +144,7 @@ a:link {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_normalize\.scss}line{font-family:\00003143}}
 a:hover,
 a:focus {
-  color: #f15a24;
+  color: #F15A24;
   text-decoration: none;
 }
 
@@ -685,8 +685,8 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\0000391}}
   .sidebar-first #content {
     float: left;
-    width: 66.66667%;
-    margin-left: 33.33333%;
+    width: 200%;
+    margin-left: 100%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
@@ -700,7 +700,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\0000396}}
   .sidebar-first .region-sidebar-first {
     float: left;
-    width: 33.33333%;
+    width: 100%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -724,7 +724,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003106}}
   .sidebar-second #content {
     float: left;
-    width: 66.66667%;
+    width: 200%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -739,8 +739,8 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003111}}
   .sidebar-second .region-sidebar-second {
     float: left;
-    width: 33.33333%;
-    margin-left: 66.66667%;
+    width: 100%;
+    margin-left: 200%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
@@ -764,8 +764,8 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003121}}
   .two-sidebars #content {
     float: left;
-    width: 66.66667%;
-    margin-left: 33.33333%;
+    width: 200%;
+    margin-left: 100%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
@@ -779,7 +779,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003126}}
   .two-sidebars .region-sidebar-first {
     float: left;
-    width: 33.33333%;
+    width: 100%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -794,7 +794,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003131}}
   .two-sidebars .region-sidebar-second {
     float: left;
-    width: 100%;
+    width: 300%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -835,7 +835,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003141}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     float: left;
-    width: 33.33333%;
+    width: 100%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -851,8 +851,8 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003146}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     float: left;
-    width: 33.33333%;
-    margin-left: 33.33333%;
+    width: 100%;
+    margin-left: 100%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
@@ -866,8 +866,8 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003150}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     float: left;
-    width: 33.33333%;
-    margin-left: 66.66667%;
+    width: 100%;
+    margin-left: 200%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
@@ -1027,6 +1027,8 @@ table {
     margin-right: -10px;
     padding-left: 0;
     padding-right: 0;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 25% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 25% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 75% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 75% bottom no-repeat, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIyNSUiIHN0b3AtY29sb3I9IiNjY2NjY2MiLz48c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIvPjxzdG9wIG9mZnNldD0iNzUlIiBzdG9wLWNvbG9yPSIjY2NjY2NjIi8+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g') 10px top no-repeat, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIyNSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSIyNSUiIHN0b3AtY29sb3I9IiNjY2NjY2MiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjxzdG9wIG9mZnNldD0iNzUlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjxzdG9wIG9mZnNldD0iNzUlIiBzdG9wLWNvbG9yPSIjY2NjY2NjIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g') -10px top no-repeat;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 25% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 25% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 75% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 75% bottom no-repeat, -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(25%, #cccccc), color-stop(25%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, #cccccc), color-stop(75%, #cccccc), color-stop(75%, rgba(0, 0, 0, 0))) 10px top no-repeat, -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(25%, rgba(0, 0, 0, 0)), color-stop(25%, #cccccc), color-stop(50%, #cccccc), color-stop(50%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, #cccccc)) -10px top no-repeat;
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 25% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 25% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 75% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 75% bottom no-repeat, -moz-linear-gradient(left, #cccccc 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, #cccccc 50%, #cccccc 75%, rgba(0, 0, 0, 0) 75%) 10px top no-repeat, -moz-linear-gradient(left, rgba(0, 0, 0, 0) 25%, #cccccc 25%, #cccccc 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 75%, #cccccc 75%) -10px top no-repeat;
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 25% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 25% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 75% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 75% bottom no-repeat, -webkit-linear-gradient(left, #cccccc 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, #cccccc 50%, #cccccc 75%, rgba(0, 0, 0, 0) 75%) 10px top no-repeat, -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 25%, #cccccc 25%, #cccccc 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 75%, #cccccc 75%) -10px top no-repeat;
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 25% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 25% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 75% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 75% bottom no-repeat, linear-gradient(to right, #cccccc 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, #cccccc 50%, #cccccc 75%, rgba(0, 0, 0, 0) 75%) 10px top no-repeat, linear-gradient(to right, rgba(0, 0, 0, 0) 25%, #cccccc 25%, #cccccc 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 75%, #cccccc 75%) -10px top no-repeat;
@@ -1117,8 +1119,8 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003227}}
   .sidebar-first #content {
     float: left;
-    width: 80%;
-    margin-left: 20%;
+    width: 200%;
+    margin-left: 50%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
@@ -1133,7 +1135,7 @@ table {
   .sidebar-first .region-sidebar-first {
     position: fixed;
     float: left;
-    width: 20%;
+    width: 50%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -1157,7 +1159,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003243}}
   .sidebar-second #content {
     float: left;
-    width: 80%;
+    width: 200%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -1172,8 +1174,8 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003248}}
   .sidebar-second .region-sidebar-second {
     float: left;
-    width: 20%;
-    margin-left: 80%;
+    width: 50%;
+    margin-left: 200%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
@@ -1197,8 +1199,8 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003258}}
   .two-sidebars #content {
     float: left;
-    width: 60%;
-    margin-left: 20%;
+    width: 150%;
+    margin-left: 50%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
@@ -1212,7 +1214,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003263}}
   .two-sidebars .region-sidebar-first {
     float: left;
-    width: 20%;
+    width: 50%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -1227,8 +1229,8 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/layouts\/_responsive\.scss}line{font-family:\00003268}}
   .two-sidebars .region-sidebar-second {
     float: left;
-    width: 20%;
-    margin-left: 80%;
+    width: 50%;
+    margin-left: 200%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
@@ -1562,7 +1564,7 @@ table {
 /* The link around the name of the website. */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/components\/_misc\.scss}line{font-family:\00003105}}
 .header__site-link:link, .header__site-link:visited {
-  color: #f15a24;
+  color: #F15A24;
   text-decoration: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/components\/_misc\.scss}line{font-family:\00003111}}
@@ -1720,12 +1722,15 @@ table {
 .tabs-primary, .tabs-secondary {
   overflow: hidden;
   *zoom: 1;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYmJiYmJiIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(100%, #bbbbbb), color-stop(100%, rgba(0, 0, 0, 0)));
   background-image: -moz-linear-gradient(bottom, #bbbbbb 1px, rgba(0, 0, 0, 0) 1px);
   background-image: -webkit-linear-gradient(bottom, #bbbbbb 1px, rgba(0, 0, 0, 0) 1px);
   background-image: linear-gradient(to top, #bbbbbb 1px, rgba(0, 0, 0, 0) 1px);
   /* IE 9 and earlier don't understand gradients. */
   list-style: none;
-  border-bottom: 1px solid #bbbbbb \0/ie;
+  border-bottom: 1px solid #bbb \0/ie;
   margin: 1.5em 0;
   padding: 0 2px;
   white-space: nowrap;
@@ -1757,16 +1762,16 @@ a.tabs-primary__tab-link, a.tabs-primary__tab-link.is-active, a.tabs-secondary__
   -moz-border-radius-topright: 4px;
   -webkit-border-top-right-radius: 4px;
   border-top-right-radius: 4px;
-  text-shadow: 1px 1px 0 white;
-  border: 1px solid #bbbbbb;
+  text-shadow: 1px 1px 0 #fff;
+  border: 1px solid #bbb;
   border-bottom-color: transparent;
   /* IE 9 and earlier don't understand gradients. */
   border-bottom: 0 \0/ie;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/components\/_misc\.scss}line{font-family:\00003301}}
-.is-active.tabs-primary__tab {
-  border-bottom-color: white;
+.tabs-primary__tab.is-active {
+  border-bottom-color: #fff;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/components\/_misc\.scss}line{font-family:\00003307}}
@@ -1799,6 +1804,9 @@ a.tabs-primary__tab-link:active, a.tabs-primary__tab-link.is-active {
   background-color: transparent;
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFE9E9E9', endColorstr='#00E9E9E9');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U5ZTllOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2U5ZTllOSIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e9e9e9), color-stop(100%, rgba(233, 233, 233, 0)));
   background-image: -moz-linear-gradient(#e9e9e9, rgba(233, 233, 233, 0));
   background-image: -webkit-linear-gradient(#e9e9e9, rgba(233, 233, 233, 0));
   background-image: linear-gradient(#e9e9e9, rgba(233, 233, 233, 0));
@@ -1828,7 +1836,7 @@ a.tabs-secondary__tab-link, a.tabs-secondary__tab-link.is-active {
   -o-transition: background-color 0.3s;
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
-  text-shadow: 1px 1px 0 white;
+  text-shadow: 1px 1px 0 #fff;
   background-color: #f2f2f2;
   color: #666;
   padding: 0 .5em;
@@ -1843,7 +1851,7 @@ a.tabs-secondary__tab-link:hover, a.tabs-secondary__tab-link:focus {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/components\/_misc\.scss}line{font-family:\00003372}}
 a.tabs-secondary__tab-link:active, a.tabs-secondary__tab-link.is-active {
-  text-shadow: 1px 1px 0 #333333;
+  text-shadow: 1px 1px 0 #333;
   background-color: #666;
   border-color: #000;
   color: #fff;
@@ -2372,7 +2380,7 @@ tr.selected td {
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\000037}}
 #page {
-  background: none repeat scroll 0 0 #e5e5e5;
+  background: none repeat scroll 0 0 #E5E5E5;
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -2386,7 +2394,7 @@ tr.selected td {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000317}}
 .views-field-title {
-  color: #da6a27;
+  color: #DA6A27;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000320}}
@@ -2401,7 +2409,7 @@ tr.selected td {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000326}}
 .page-node .page__title {
-  color: #da6a27;
+  color: #DA6A27;
   display: block;
   font-size: 1.25em;
   text-transform: uppercase;
@@ -2409,8 +2417,8 @@ tr.selected td {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000332}}
 .field-name-field-project-description {
-  border-top: 1px solid #9c9a9a;
-  border-bottom: 1px solid #9c9a9a;
+  border-top: 1px solid #9C9A9A;
+  border-bottom: 1px solid #9C9A9A;
   color: #494849;
 }
 
@@ -2420,7 +2428,7 @@ tr.selected td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000339}}
 .view-project-client a {
-  color: #da6a27;
+  color: #DA6A27;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000343}}
@@ -2453,7 +2461,7 @@ tr.selected td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000365}}
 #block-system-main-menu ul li a:hover, #block-system-main-menu ul li a.active-trail {
-  color: #da6a27;
+  color: #DA6A27;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000372}}
@@ -2472,7 +2480,7 @@ tr.selected td {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000381}}
 .mean-container a.meanmenu-reveal span.mean-head {
   background: none repeat scroll 0 0 transparent;
-  color: white;
+  color: #FFFFFF;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000386}}
 .mean-container .mean-nav {
@@ -2480,17 +2488,17 @@ tr.selected td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000388}}
 .mean-container .mean-nav h2 {
-  color: white;
+  color: #FFFFFF;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000391}}
 .mean-container .mean-nav ul li a {
   background: none repeat scroll 0 0 #717272;
-  color: white;
+  color: #FFFFFF;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000395}}
 .mean-container .mean-nav ul li a:hover {
   background: none repeat scroll 0 0 #717272;
-  color: #da6a27;
+  color: #DA6A27;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass\/_varisco\.scss}line{font-family:\0000399}}
 .mean-container .mean-nav ul li a.mean-expand:hover {
