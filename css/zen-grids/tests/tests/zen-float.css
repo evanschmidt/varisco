@@ -1,0 +1,17 @@
+/**
+ * @file
+ * Test zen-float()
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/tests\/tests\/zen-float\.scss}line{font-family:\000038}}
+#test-zen-float {
+  /* Test zen-float() */
+  float: left;
+  /* Test zen-float() with $zen-direction: right */
+  float: right;
+  /* Test zen-float(left) */
+  float: left;
+  /* Test zen-float(left, $switch-direction: TRUE) */
+  float: right;
+  /* Test zen-float(left) with: $zen-switch-direction: TRUE; */
+  float: right;
+}
