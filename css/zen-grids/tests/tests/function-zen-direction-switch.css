@@ -2,7 +2,7 @@
  * @file
  * Test zen-direction-switch()
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/tests\/tests\/function-zen-direction-switch\.scss}line{font-family:\000038}}
+/* line 8, ../../../../sass-extensions/zen-grids/tests/tests/function-zen-direction-switch.scss */
 #test-zen-direction-switch {
   /* Test zen-direction-switch(left) */
   float: right;

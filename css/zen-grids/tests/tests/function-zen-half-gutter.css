@@ -2,7 +2,7 @@
  * @file
  * Test zen-half-gutter()
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/tests\/tests\/function-zen-half-gutter\.scss}line{font-family:\000038}}
+/* line 8, ../../../../sass-extensions/zen-grids/tests/tests/function-zen-half-gutter.scss */
 #test-zen-half-gutter {
   /* Test zen-half-gutter() with default $zen-gutters: 20px */
   padding-left: 10px;

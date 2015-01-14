@@ -2,7 +2,7 @@
  * @file
  * Test zen-grid-item-width()
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/TomVarisco\/rel\/sites\/all\/themes\/varisco\/sass-extensions\/zen-grids\/tests\/tests\/function-zen-grid-item-width\.scss}line{font-family:\000038}}
+/* line 8, ../../../../sass-extensions/zen-grids/tests/tests/function-zen-grid-item-width.scss */
 #test-zen-grid-item-width {
   /* Test zen-grid-item-width(1) with default $zen-columns: 1 */
   width: 100%;
