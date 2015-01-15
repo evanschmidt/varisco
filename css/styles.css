@@ -2513,9 +2513,4 @@ tr.selected td {
   background: none repeat scroll 0 0 #717272;
 }
 
-/* line 104, ../sass/_varisco.scss */
-.masonry-item {
-  width: 48%;
-}
-
 /* @import "theme-B"; */
