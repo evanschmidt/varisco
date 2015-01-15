@@ -608,7 +608,7 @@ table {
 .region-bottom {
   margin-left: 20px;
   margin-right: 20px;
-  max-width: 1200px;
+  max-width: 100%;
 }
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
@@ -685,8 +685,8 @@ table {
   /* line 91, ../sass/layouts/_responsive.scss */
   .sidebar-first #content {
     float: left;
-    width: 200%;
-    margin-left: 100%;
+    width: 66.66667%;
+    margin-left: 33.33333%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
@@ -700,7 +700,7 @@ table {
   /* line 96, ../sass/layouts/_responsive.scss */
   .sidebar-first .region-sidebar-first {
     float: left;
-    width: 100%;
+    width: 33.33333%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -724,7 +724,7 @@ table {
   /* line 106, ../sass/layouts/_responsive.scss */
   .sidebar-second #content {
     float: left;
-    width: 200%;
+    width: 66.66667%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -739,8 +739,8 @@ table {
   /* line 111, ../sass/layouts/_responsive.scss */
   .sidebar-second .region-sidebar-second {
     float: left;
-    width: 100%;
-    margin-left: 200%;
+    width: 33.33333%;
+    margin-left: 66.66667%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
@@ -764,8 +764,8 @@ table {
   /* line 121, ../sass/layouts/_responsive.scss */
   .two-sidebars #content {
     float: left;
-    width: 200%;
-    margin-left: 100%;
+    width: 66.66667%;
+    margin-left: 33.33333%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
@@ -779,7 +779,7 @@ table {
   /* line 126, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-first {
     float: left;
-    width: 100%;
+    width: 33.33333%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -794,7 +794,7 @@ table {
   /* line 131, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second {
     float: left;
-    width: 300%;
+    width: 100%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -835,7 +835,7 @@ table {
   /* line 141, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     float: left;
-    width: 100%;
+    width: 33.33333%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -851,8 +851,8 @@ table {
   /* line 146, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     float: left;
-    width: 100%;
-    margin-left: 100%;
+    width: 33.33333%;
+    margin-left: 33.33333%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;
@@ -866,8 +866,8 @@ table {
   /* line 150, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     float: left;
-    width: 100%;
-    margin-left: 200%;
+    width: 33.33333%;
+    margin-left: 66.66667%;
     margin-right: -100%;
     *margin-right: -99.9%;
     padding-left: 10px;

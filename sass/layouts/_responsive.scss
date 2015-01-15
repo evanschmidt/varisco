@@ -34,7 +34,7 @@ $zen-auto-include-item-base: false;
 .region-bottom {
   margin-left: 20px;
   margin-right: 20px;
-  max-width: 1200px;
+  max-width: 100%;
 }
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
@@ -78,7 +78,7 @@ $zen-auto-include-item-base: false;
  */
 @media all and (min-width: 480px) and (max-width: 959px) {
 
-  $zen-columns: 3;
+  $zen-columns: 3!global;
 
   #page {
     //@include zen-grid-background();
