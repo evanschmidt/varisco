@@ -212,7 +212,7 @@ $zen-auto-include-item-base: false;
   $zen-columns: 5!global;
 
   #page {
-    @include zen-grid-background();
+    //@include zen-grid-background();
   }
   .region-highlighted {
   //  @include zen-grid-container($context: none);
