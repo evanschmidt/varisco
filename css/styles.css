@@ -2451,7 +2451,7 @@ tr.selected td {
 /* line 50, ../sass/_varisco.scss */
 #block-system-main-menu ul {
   font-size: 4em;
-  font-size: 4.5vw;
+  /*	  font-size: 4.5vw; */
   line-height: 1em;
   margin: 0;
   padding: 0;
