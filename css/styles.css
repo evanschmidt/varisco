@@ -2515,8 +2515,7 @@ tr.selected td {
 
 /* line 104, ../sass/_varisco.scss */
 .masonry-item {
-  width: 45%;
-  text-align: center;
+  width: 32%;
 }
 
 /* @import "theme-B"; */
