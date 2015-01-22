@@ -83,7 +83,7 @@ $zen-auto-include-item-base: false;
 
   $zen-columns: 3!global;
  .masonry-item {
-    width: 48%;
+    width: 40%;
   }
  
   #page {
@@ -217,7 +217,7 @@ $zen-auto-include-item-base: false;
 
   $zen-columns: 5!global;
   .masonry-item {
-    width: 30%;
+    width: 20%;
   }
   #page {
     //@include zen-grid-background();
