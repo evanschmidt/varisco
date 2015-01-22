@@ -54,6 +54,9 @@ $zen-auto-include-item-base: false;
 #footer {
   @include zen-grid-container();
 }
+ .masonry-item {
+    width: 100%;
+  }
 
 /* Navigation bar */
 @media all and (min-width: 480px) {
@@ -79,7 +82,10 @@ $zen-auto-include-item-base: false;
 @media all and (min-width: 480px) and (max-width: 959px) {
 
   $zen-columns: 3!global;
-
+ .masonry-item {
+    width: 50%;
+  }
+ 
   #page {
     //@include zen-grid-background();
   }
@@ -210,7 +216,9 @@ $zen-auto-include-item-base: false;
 @media all and (min-width: 960px) {
 
   $zen-columns: 5!global;
-
+  .masonry-item {
+    width: 30%;
+  }
   #page {
     //@include zen-grid-background();
   }
