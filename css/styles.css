@@ -681,7 +681,7 @@ table {
 @media all and (min-width: 480px) and (max-width: 959px) {
   /* line 85, ../sass/layouts/_responsive.scss */
   .masonry-item {
-    width: 50%;
+    width: 48%;
   }
 
   /**
