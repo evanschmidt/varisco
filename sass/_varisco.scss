@@ -3,12 +3,14 @@
  * _varisco.scss has customization for Tom Varisco Designs.
  *
  */
-
+html {
+  height: 100%;
+}
 #page {
   background: none repeat scroll 0 0 $light-gray;
   margin-bottom: 20px;
   margin-top: 20px;
-  min-height: 500px;
+  min-height: 80%;
 }
 .header__site-name,#block-system-main-menu h2 {
   font-size: 1em;
