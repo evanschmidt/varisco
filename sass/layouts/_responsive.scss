@@ -55,7 +55,7 @@ $zen-auto-include-item-base: false;
   @include zen-grid-container();
 }
  .masonry-item {
-    padding: 20px;
+    padding: 10px;
     width: 100%;
   }
 
@@ -84,7 +84,7 @@ $zen-auto-include-item-base: false;
 
   $zen-columns: 3!global;
  .masonry-item {
-    padding: 20px;
+    padding: 10px;
     width: 40%;
   }
  
@@ -219,9 +219,8 @@ $zen-auto-include-item-base: false;
 
   $zen-columns: 5!global;
   .masonry-item {
-    padding: 20px;
+    padding: 10px;
     width: 20%;
-    padding: 20px;
   }
   #page {
     //@include zen-grid-background();
