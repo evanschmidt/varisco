@@ -2397,7 +2397,7 @@ tr.selected td {
  *
  */
 /* line 6, ../sass/_varisco.scss */
-html {
+html, body {
   height: 100%;
 }
 
@@ -2406,7 +2406,7 @@ html {
   background: none repeat scroll 0 0 #E5E5E5;
   margin-bottom: 20px;
   margin-top: 20px;
-  min-height: 80%;
+  min-height: 90%;
 }
 
 /* line 15, ../sass/_varisco.scss */
