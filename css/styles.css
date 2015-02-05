@@ -2491,6 +2491,10 @@ body {
   margin: 0;
   padding: 0;
 }
+/* line 58, ../sass/_varisco.scss */
+#block-block-1 .studio-address {
+  font-size: 0.75em;
+}
 /* line 65, ../sass/_varisco.scss */
 #block-block-1 .studio-email a {
   color: #C15D21;
