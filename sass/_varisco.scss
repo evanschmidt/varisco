@@ -19,7 +19,7 @@ body {
   font-size: 1em;
   line-height: 1em;
   font-weight: normal;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5em; 
 }
 .views-field-title {
 	color: $dark-orange;
@@ -48,7 +48,24 @@ body {
 	}
 }
 #block-block-1 {
-  font-size: 0.7em;
+  font-size: 1em;
+  p {
+    color: $dark-gray;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+  }
+  .studio-address {
+
+  }
+  .studio-phone {
+
+  }
+  .studio-email {
+    a {
+      color: $med-orange;
+    }
+  }
 }
 #block-system-main-menu {
   h2 {
