@@ -2487,13 +2487,13 @@ body {
 /* line 52, ../sass/_varisco.scss */
 #block-block-1 p {
   color: #494849;
+  font-weight: bold;
   line-height: 1.25em;
   margin: 0;
   padding: 0;
 }
-/* line 58, ../sass/_varisco.scss */
+/* line 59, ../sass/_varisco.scss */
 #block-block-1 .studio-address {
-  font-weight: bold;
   font-size: 0.75em;
 }
 /* line 66, ../sass/_varisco.scss */
