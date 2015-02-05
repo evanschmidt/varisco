@@ -93,19 +93,26 @@
 .header__name-and-slogan {
   float: left;
   padding-left: 10px;
+  line-height: 1em;
 }
 
 /* The name of the website. */
 .header__site-name {
   margin: 0;
   @include adjust-font-size-to( $h1-font-size );
+  .site-name {
+    font-weight: bolder;
+  }
+  .site-slogan {
+    font-weight: normal;
+  }
 }
 
 /* The link around the name of the website. */
 .header__site-link {
   &:link,
   &:visited {
-    color: $orange;
+    color: $dark-orange;
     text-decoration: none;
   }
 
