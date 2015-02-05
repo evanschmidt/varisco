@@ -2469,32 +2469,37 @@ body {
   display: none;
 }
 /* line 43, ../sass/_varisco.scss */
-.section-studio .studio-page-image {
+.section-studio p {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+/* line 47, ../sass/_varisco.scss */
+.section-studio p.studio-page-image {
   margin: 0;
 }
 
-/* line 48, ../sass/_varisco.scss */
+/* line 52, ../sass/_varisco.scss */
 .field-name-field-project-description {
   border-top: 1px solid #9C9A9A;
   border-bottom: 1px solid #9C9A9A;
   color: #494849;
 }
 
-/* line 53, ../sass/_varisco.scss */
+/* line 57, ../sass/_varisco.scss */
 .view-project-client {
   text-transform: uppercase;
 }
-/* line 55, ../sass/_varisco.scss */
+/* line 59, ../sass/_varisco.scss */
 .view-project-client a {
   color: #DA6A27;
 }
 
-/* line 59, ../sass/_varisco.scss */
+/* line 63, ../sass/_varisco.scss */
 #block-block-1 {
   font-size: 1em;
   padding-left: 10px;
 }
-/* line 62, ../sass/_varisco.scss */
+/* line 66, ../sass/_varisco.scss */
 #block-block-1 p {
   color: #494849;
   font-weight: bold;
@@ -2502,20 +2507,20 @@ body {
   margin: 0;
   padding: 0;
 }
-/* line 69, ../sass/_varisco.scss */
+/* line 73, ../sass/_varisco.scss */
 #block-block-1 .studio-address {
   font-size: 0.75em;
 }
-/* line 76, ../sass/_varisco.scss */
+/* line 80, ../sass/_varisco.scss */
 #block-block-1 .studio-email a {
   color: #C15D21;
 }
 
-/* line 82, ../sass/_varisco.scss */
+/* line 86, ../sass/_varisco.scss */
 #block-system-main-menu h2 {
   display: none;
 }
-/* line 85, ../sass/_varisco.scss */
+/* line 89, ../sass/_varisco.scss */
 #block-system-main-menu ul {
   font-size: 4em;
   font-size: 4.5vw;
@@ -2524,58 +2529,58 @@ body {
   padding: 0 0 0 10px;
   text-transform: uppercase;
 }
-/* line 93, ../sass/_varisco.scss */
+/* line 97, ../sass/_varisco.scss */
 #block-system-main-menu ul li {
   list-style: none;
   list-style-position: outside;
 }
-/* line 96, ../sass/_varisco.scss */
+/* line 100, ../sass/_varisco.scss */
 #block-system-main-menu ul li a {
   color: #717272;
   text-decoration: none;
 }
-/* line 100, ../sass/_varisco.scss */
+/* line 104, ../sass/_varisco.scss */
 #block-system-main-menu ul li a:hover, #block-system-main-menu ul li a.active-trail {
   color: #DA6A27;
 }
 
-/* line 107, ../sass/_varisco.scss */
+/* line 111, ../sass/_varisco.scss */
 .mean-container .mean-bar {
   background: none repeat scroll 0 0 transparent;
 }
-/* line 110, ../sass/_varisco.scss */
+/* line 114, ../sass/_varisco.scss */
 .mean-container a.meanmenu-reveal {
   background: none repeat scroll 0 0 #717272;
 }
-/* line 112, ../sass/_varisco.scss */
+/* line 116, ../sass/_varisco.scss */
 .mean-container a.meanmenu-reveal span {
   background: none repeat scroll 0 0 #FFFFFF;
   display: block;
 }
-/* line 116, ../sass/_varisco.scss */
+/* line 120, ../sass/_varisco.scss */
 .mean-container a.meanmenu-reveal span.mean-head {
   background: none repeat scroll 0 0 transparent;
   color: #FFFFFF;
 }
-/* line 121, ../sass/_varisco.scss */
+/* line 125, ../sass/_varisco.scss */
 .mean-container .mean-nav {
   background: none repeat scroll 0 0 #717272;
 }
-/* line 123, ../sass/_varisco.scss */
+/* line 127, ../sass/_varisco.scss */
 .mean-container .mean-nav h2 {
   color: #FFFFFF;
 }
-/* line 126, ../sass/_varisco.scss */
+/* line 130, ../sass/_varisco.scss */
 .mean-container .mean-nav ul li a {
   background: none repeat scroll 0 0 #717272;
   color: #FFFFFF;
 }
-/* line 130, ../sass/_varisco.scss */
+/* line 134, ../sass/_varisco.scss */
 .mean-container .mean-nav ul li a:hover {
   background: none repeat scroll 0 0 #717272;
   color: #DA6A27;
 }
-/* line 134, ../sass/_varisco.scss */
+/* line 138, ../sass/_varisco.scss */
 .mean-container .mean-nav ul li a.mean-expand:hover {
   background: none repeat scroll 0 0 #717272;
 }

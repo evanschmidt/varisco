@@ -39,8 +39,12 @@ body {
 .section-studio {
   .page__title {
     display: none;
+  }
+  p {
+    margin-left: 2em;
+    margin-right: 2em;
   }  
-  .studio-page-image {
+  p.studio-page-image {
     margin: 0;
   }
 }
