@@ -36,8 +36,13 @@ body {
   font-size: 1.25em;
   text-transform: uppercase;
 }
-.section-studio .page__title {
-  display: none;  
+.section-studio {
+  .page__title {
+    display: none;
+  }  
+  .studio-page-image {
+    margin: 0;
+  }
 }
 
 .field-name-field-project-description {
