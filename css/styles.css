@@ -707,7 +707,7 @@ table {
   }
 
   /* line 104, ../sass/layouts/_responsive.scss */
-  .header__site-name {
+  .header__site-name h1 {
     font-size: 1em;
     font-size: 1.25vw;
     line-height: 1em;
@@ -1200,7 +1200,7 @@ table {
   }
 
   /* line 274, ../sass/layouts/_responsive.scss */
-  .header__site-name {
+  .header__site-name h1 {
     font-size: 1em;
     font-size: 1.25vw;
     line-height: 1em;
