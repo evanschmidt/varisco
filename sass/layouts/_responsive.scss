@@ -56,11 +56,17 @@ $zen-auto-include-item-base: false;
   left: 0;
   width: 100%;
 }
-  h1.header__site-name a {
-    &:link,
-    &:visited {
-      color: $white;
+  h1.header__site-name {
+    line-height: 1em;
+    a {
+      &:link,
+      &:visited {
+        color: $white;
+      }
     }
+  }
+  .header__name-and-slogan {
+    float: none;
   }
 /* Containers for grid items and flow items. */
 #header,
@@ -119,6 +125,9 @@ $zen-auto-include-item-base: false;
         color: $dark-orange;
       }      
     }
+  }
+  .header__name-and-slogan {
+    float: left;
   }
    #page {
    margin-left: 20px;
@@ -296,6 +305,10 @@ $zen-auto-include-item-base: false;
       }      
     }
   }
+  .header__name-and-slogan {
+    float: left;
+  }
+
   .region-highlighted {
   //  @include zen-grid-container($context: none);
   //  @include zen-grid-item(5, 1);    
