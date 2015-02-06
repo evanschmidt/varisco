@@ -56,6 +56,9 @@ $zen-auto-include-item-base: false;
   left: 0;
   width: 100%;
 }
+  h1.header__site-name a {
+    color: $white;
+  }
 /* Containers for grid items and flow items. */
 #header,
 #main,
