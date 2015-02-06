@@ -109,6 +109,9 @@ $zen-auto-include-item-base: false;
    margin-top: 20px;
     //@include zen-grid-background();
   }
+  .page__title {
+    display: none;
+  }
   #main {
     padding-top: 1em;
   }
@@ -252,6 +255,9 @@ $zen-auto-include-item-base: false;
   }
   #main {
     padding-top: 1em;
+  }
+  .page__title {
+    display: none;
   }
   .region-sidebar-first {
     background: none repeat scroll 0 0 transparent;
