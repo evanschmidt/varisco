@@ -15,6 +15,7 @@ body {
 }
 .header__site-name,#block-system-main-menu h2 {
   font-size: 1em;
+  font-size: 1vw;
   line-height: 1em;
   font-weight: normal;
   margin-bottom: 0.5em; 
@@ -62,6 +63,7 @@ body {
 }
 #block-block-1 {
   font-size: 1em;
+  font-size: 1vw;
   padding-left: 10px;
   p {
     color: $dark-gray;
@@ -72,6 +74,7 @@ body {
   }
   .studio-address {
     font-size: 0.74em;
+    font-size: 0.74vw;
   }
   .studio-phone {
 
