@@ -641,7 +641,7 @@ table {
 
 /* line 59, ../sass/layouts/_responsive.scss */
 h1.header__site-name {
-  line-height: 1em;
+  line-height: 1.25em;
 }
 /* line 62, ../sass/layouts/_responsive.scss */
 h1.header__site-name a:link, h1.header__site-name a:visited {
@@ -653,8 +653,13 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
   float: none;
 }
 
+/* line 71, ../sass/layouts/_responsive.scss */
+#block-block-2 {
+  margin-bottom: 0;
+}
+
 /* Containers for grid items and flow items. */
-/* line 72, ../sass/layouts/_responsive.scss */
+/* line 75, ../sass/layouts/_responsive.scss */
 #header,
 #main,
 #footer {
@@ -677,7 +682,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
   clear: both;
 }
 
-/* line 77, ../sass/layouts/_responsive.scss */
+/* line 80, ../sass/layouts/_responsive.scss */
 .masonry-item {
   padding: 10px;
   width: 100%;
@@ -686,14 +691,14 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
 
 /* Navigation bar */
 @media all and (min-width: 480px) {
-  /* line 84, ../sass/layouts/_responsive.scss */
+  /* line 87, ../sass/layouts/_responsive.scss */
   #main {
     /* Move all the children of #main down to make room. */
     padding-top: 0em;
     position: relative;
   }
 
-  /* line 89, ../sass/layouts/_responsive.scss */
+  /* line 92, ../sass/layouts/_responsive.scss */
   #navigation {
     /* Move the navbar up inside #main's padding. */
     position: absolute;
@@ -706,13 +711,13 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
  * Use 3 grid columns for smaller screens.
  */
 @media all and (min-width: 480px) and (max-width: 959px) {
-  /* line 106, ../sass/layouts/_responsive.scss */
+  /* line 109, ../sass/layouts/_responsive.scss */
   .masonry-item {
     padding: 10px;
     width: 40%;
   }
 
-  /* line 110, ../sass/layouts/_responsive.scss */
+  /* line 113, ../sass/layouts/_responsive.scss */
   .region-sidebar-first {
     background: none repeat scroll 0 0 transparent;
     position: relative;
@@ -720,7 +725,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     left: auto;
   }
 
-  /* line 116, ../sass/layouts/_responsive.scss */
+  /* line 119, ../sass/layouts/_responsive.scss */
   h1.header__site-name {
     font-size: 1em;
     font-size: 1.25vw;
@@ -728,17 +733,17 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     font-weight: normal;
     margin-bottom: 0.5em;
   }
-  /* line 123, ../sass/layouts/_responsive.scss */
+  /* line 126, ../sass/layouts/_responsive.scss */
   h1.header__site-name a:link, h1.header__site-name a:visited {
     color: #DA6A27;
   }
 
-  /* line 129, ../sass/layouts/_responsive.scss */
+  /* line 132, ../sass/layouts/_responsive.scss */
   .header__name-and-slogan {
     float: left;
   }
 
-  /* line 132, ../sass/layouts/_responsive.scss */
+  /* line 135, ../sass/layouts/_responsive.scss */
   #page {
     margin-left: 20px;
     margin-right: 20px;
@@ -746,25 +751,49 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     margin-top: 20px;
   }
 
-  /* line 139, ../sass/layouts/_responsive.scss */
+  /* line 142, ../sass/layouts/_responsive.scss */
   .page__title {
     display: none;
   }
 
-  /* line 142, ../sass/layouts/_responsive.scss */
+  /* line 145, ../sass/layouts/_responsive.scss */
   #main {
     padding-top: 1em;
+  }
+
+  /* line 148, ../sass/layouts/_responsive.scss */
+  #block-block-1 {
+    font-size: 1em;
+    font-size: 1vw;
+    padding-left: 10px;
+  }
+  /* line 152, ../sass/layouts/_responsive.scss */
+  #block-block-1 p {
+    color: #494849;
+    font-weight: bold;
+    line-height: 1.25em;
+    margin: 0;
+    padding: 0;
+  }
+  /* line 159, ../sass/layouts/_responsive.scss */
+  #block-block-1 .studio-address {
+    font-size: 0.74em;
+    font-size: 0.74vw;
+  }
+  /* line 167, ../sass/layouts/_responsive.scss */
+  #block-block-1 .studio-email a {
+    color: #C15D21;
   }
 
   /**
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 148, ../sass/layouts/_responsive.scss */
+  /* line 176, ../sass/layouts/_responsive.scss */
   .sidebar-first {
     /* Span 2 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-  /* line 150, ../sass/layouts/_responsive.scss */
+  /* line 178, ../sass/layouts/_responsive.scss */
   .sidebar-first #content {
     float: left;
     width: 66.66667%;
@@ -779,7 +808,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 155, ../sass/layouts/_responsive.scss */
+  /* line 183, ../sass/layouts/_responsive.scss */
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 33.33333%;
@@ -798,12 +827,12 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 163, ../sass/layouts/_responsive.scss */
+  /* line 191, ../sass/layouts/_responsive.scss */
   .sidebar-second {
     /* Span 2 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 3rd column from left. */
   }
-  /* line 165, ../sass/layouts/_responsive.scss */
+  /* line 193, ../sass/layouts/_responsive.scss */
   .sidebar-second #content {
     float: left;
     width: 66.66667%;
@@ -818,7 +847,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 170, ../sass/layouts/_responsive.scss */
+  /* line 198, ../sass/layouts/_responsive.scss */
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 33.33333%;
@@ -837,13 +866,13 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
   /**
    * The layout when there are two sidebars.
    */
-  /* line 178, ../sass/layouts/_responsive.scss */
+  /* line 206, ../sass/layouts/_responsive.scss */
   .two-sidebars {
     /* Span 2 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Start a new row and span all 3 columns. */
   }
-  /* line 180, ../sass/layouts/_responsive.scss */
+  /* line 208, ../sass/layouts/_responsive.scss */
   .two-sidebars #content {
     float: left;
     width: 66.66667%;
@@ -858,7 +887,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 185, ../sass/layouts/_responsive.scss */
+  /* line 213, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 33.33333%;
@@ -873,7 +902,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 190, ../sass/layouts/_responsive.scss */
+  /* line 218, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 100%;
@@ -904,7 +933,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
   .two-sidebars .region-sidebar-second:after {
     clear: both;
   }
-  /* line 196, ../sass/layouts/_responsive.scss */
+  /* line 224, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block {
     padding-left: 10px;
     padding-right: 10px;
@@ -914,7 +943,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 200, ../sass/layouts/_responsive.scss */
+  /* line 228, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     float: left;
     width: 33.33333%;
@@ -930,7 +959,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     *word-wrap: break-word;
     clear: left;
   }
-  /* line 205, ../sass/layouts/_responsive.scss */
+  /* line 233, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     float: left;
     width: 33.33333%;
@@ -945,7 +974,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 209, ../sass/layouts/_responsive.scss */
+  /* line 237, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     float: left;
     width: 33.33333%;
@@ -961,7 +990,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     *word-wrap: break-word;
   }
 
-  /* line 215, ../sass/layouts/_responsive.scss */
+  /* line 243, ../sass/layouts/_responsive.scss */
   .views-responsive-grid {
     padding-left: 10px;
     padding-right: 10px;
@@ -983,12 +1012,12 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     clear: both;
   }
 
-  /* line 220, ../sass/layouts/_responsive.scss */
+  /* line 248, ../sass/layouts/_responsive.scss */
   .views-responsive-grid .views-row {
     clear: left;
   }
 
-  /* line 223, ../sass/layouts/_responsive.scss */
+  /* line 251, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-2 {
     *position: relative;
     *zoom: 1;
@@ -1006,7 +1035,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
   .views-responsive-grid.views-columns-2:after {
     clear: both;
   }
-  /* line 226, ../sass/layouts/_responsive.scss */
+  /* line 254, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-2 .views-column-1 {
     float: left;
     width: 50%;
@@ -1021,7 +1050,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 229, ../sass/layouts/_responsive.scss */
+  /* line 257, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-2 .views-column-2 {
     float: left;
     width: 50%;
@@ -1037,7 +1066,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     *word-wrap: break-word;
   }
 
-  /* line 233, ../sass/layouts/_responsive.scss */
+  /* line 261, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-3 {
     *position: relative;
     *zoom: 1;
@@ -1055,7 +1084,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
   .views-responsive-grid.views-columns-3:after {
     clear: both;
   }
-  /* line 236, ../sass/layouts/_responsive.scss */
+  /* line 264, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-3 .views-column-1 {
     float: left;
     width: 33.33333%;
@@ -1070,7 +1099,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 239, ../sass/layouts/_responsive.scss */
+  /* line 267, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-3 .views-column-2 {
     float: left;
     width: 33.33333%;
@@ -1085,7 +1114,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 242, ../sass/layouts/_responsive.scss */
+  /* line 270, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-3 .views-column-3 {
     float: left;
     width: 33.33333%;
@@ -1101,7 +1130,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     *word-wrap: break-word;
   }
 
-  /* line 246, ../sass/layouts/_responsive.scss */
+  /* line 274, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 {
     *position: relative;
     *zoom: 1;
@@ -1124,7 +1153,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
   .views-responsive-grid.views-columns-4:after {
     clear: both;
   }
-  /* line 250, ../sass/layouts/_responsive.scss */
+  /* line 278, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 .views-column-1 {
     float: left;
     width: 50%;
@@ -1139,7 +1168,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 253, ../sass/layouts/_responsive.scss */
+  /* line 281, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 .views-column-2 {
     float: left;
     width: 50%;
@@ -1154,7 +1183,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 256, ../sass/layouts/_responsive.scss */
+  /* line 284, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 .views-column-3 {
     float: left;
     width: 50%;
@@ -1170,7 +1199,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     *word-wrap: break-word;
     clear: left;
   }
-  /* line 260, ../sass/layouts/_responsive.scss */
+  /* line 288, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 .views-column-4 {
     float: left;
     width: 50%;
@@ -1190,13 +1219,13 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
  * Use 5 grid columns for larger screens.
  */
 @media all and (min-width: 960px) {
-  /* line 272, ../sass/layouts/_responsive.scss */
+  /* line 300, ../sass/layouts/_responsive.scss */
   .masonry-item {
     padding: 10px;
     width: 20%;
   }
 
-  /* line 276, ../sass/layouts/_responsive.scss */
+  /* line 304, ../sass/layouts/_responsive.scss */
   #page {
     margin-left: 20px;
     margin-right: 20px;
@@ -1204,17 +1233,17 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     margin-top: 20px;
   }
 
-  /* line 283, ../sass/layouts/_responsive.scss */
+  /* line 311, ../sass/layouts/_responsive.scss */
   #main {
     padding-top: 1em;
   }
 
-  /* line 286, ../sass/layouts/_responsive.scss */
+  /* line 314, ../sass/layouts/_responsive.scss */
   .page__title {
     display: none;
   }
 
-  /* line 289, ../sass/layouts/_responsive.scss */
+  /* line 317, ../sass/layouts/_responsive.scss */
   .region-sidebar-first {
     background: none repeat scroll 0 0 transparent;
     position: relative;
@@ -1222,7 +1251,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     left: auto;
   }
 
-  /* line 295, ../sass/layouts/_responsive.scss */
+  /* line 323, ../sass/layouts/_responsive.scss */
   h1.header__site-name {
     font-size: 1em;
     font-size: 1.25vw;
@@ -1230,25 +1259,49 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     font-weight: normal;
     margin-bottom: 0.5em;
   }
-  /* line 302, ../sass/layouts/_responsive.scss */
+  /* line 330, ../sass/layouts/_responsive.scss */
   h1.header__site-name a:link, h1.header__site-name a:visited {
     color: #DA6A27;
   }
 
-  /* line 308, ../sass/layouts/_responsive.scss */
+  /* line 336, ../sass/layouts/_responsive.scss */
   .header__name-and-slogan {
     float: left;
+  }
+
+  /* line 339, ../sass/layouts/_responsive.scss */
+  #block-block-1 {
+    font-size: 1em;
+    font-size: 1vw;
+    padding-left: 10px;
+  }
+  /* line 343, ../sass/layouts/_responsive.scss */
+  #block-block-1 p {
+    color: #494849;
+    font-weight: bold;
+    line-height: 1.25em;
+    margin: 0;
+    padding: 0;
+  }
+  /* line 350, ../sass/layouts/_responsive.scss */
+  #block-block-1 .studio-address {
+    font-size: 0.74em;
+    font-size: 0.74vw;
+  }
+  /* line 358, ../sass/layouts/_responsive.scss */
+  #block-block-1 .studio-email a {
+    color: #C15D21;
   }
 
   /**
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 320, ../sass/layouts/_responsive.scss */
+  /* line 371, ../sass/layouts/_responsive.scss */
   .sidebar-first {
     /* Span 4 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-  /* line 322, ../sass/layouts/_responsive.scss */
+  /* line 373, ../sass/layouts/_responsive.scss */
   .sidebar-first #content {
     float: left;
     width: 80%;
@@ -1263,7 +1316,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 327, ../sass/layouts/_responsive.scss */
+  /* line 378, ../sass/layouts/_responsive.scss */
   .sidebar-first .region-sidebar-first {
     position: fixed;
     float: left;
@@ -1283,12 +1336,12 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 336, ../sass/layouts/_responsive.scss */
+  /* line 387, ../sass/layouts/_responsive.scss */
   .sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-  /* line 338, ../sass/layouts/_responsive.scss */
+  /* line 389, ../sass/layouts/_responsive.scss */
   .sidebar-second #content {
     float: left;
     width: 80%;
@@ -1303,7 +1356,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 343, ../sass/layouts/_responsive.scss */
+  /* line 394, ../sass/layouts/_responsive.scss */
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 20%;
@@ -1322,13 +1375,13 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
   /**
    * The layout when there are two sidebars.
    */
-  /* line 351, ../sass/layouts/_responsive.scss */
+  /* line 402, ../sass/layouts/_responsive.scss */
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-  /* line 353, ../sass/layouts/_responsive.scss */
+  /* line 404, ../sass/layouts/_responsive.scss */
   .two-sidebars #content {
     float: left;
     width: 60%;
@@ -1343,7 +1396,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 358, ../sass/layouts/_responsive.scss */
+  /* line 409, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 20%;
@@ -1358,7 +1411,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 363, ../sass/layouts/_responsive.scss */
+  /* line 414, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 20%;
@@ -1374,7 +1427,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     *word-wrap: break-word;
   }
 
-  /* line 368, ../sass/layouts/_responsive.scss */
+  /* line 419, ../sass/layouts/_responsive.scss */
   .views-responsive-grid {
     padding-left: 10px;
     padding-right: 10px;
@@ -1396,12 +1449,12 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     clear: both;
   }
 
-  /* line 373, ../sass/layouts/_responsive.scss */
+  /* line 424, ../sass/layouts/_responsive.scss */
   .views-responsive-grid .views-row {
     clear: left;
   }
 
-  /* line 376, ../sass/layouts/_responsive.scss */
+  /* line 427, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-2 {
     *position: relative;
     *zoom: 1;
@@ -1419,7 +1472,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
   .views-responsive-grid.views-columns-2:after {
     clear: both;
   }
-  /* line 379, ../sass/layouts/_responsive.scss */
+  /* line 430, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-2 .views-column-1 {
     float: left;
     width: 50%;
@@ -1434,7 +1487,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 382, ../sass/layouts/_responsive.scss */
+  /* line 433, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-2 .views-column-2 {
     float: left;
     width: 50%;
@@ -1450,7 +1503,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     *word-wrap: break-word;
   }
 
-  /* line 386, ../sass/layouts/_responsive.scss */
+  /* line 437, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-3 {
     *position: relative;
     *zoom: 1;
@@ -1468,7 +1521,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
   .views-responsive-grid.views-columns-3:after {
     clear: both;
   }
-  /* line 389, ../sass/layouts/_responsive.scss */
+  /* line 440, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-3 .views-column-1 {
     float: left;
     width: 33.33333%;
@@ -1483,7 +1536,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 392, ../sass/layouts/_responsive.scss */
+  /* line 443, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-3 .views-column-2 {
     float: left;
     width: 33.33333%;
@@ -1498,7 +1551,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 395, ../sass/layouts/_responsive.scss */
+  /* line 446, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-3 .views-column-3 {
     float: left;
     width: 33.33333%;
@@ -1514,7 +1567,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     *word-wrap: break-word;
   }
 
-  /* line 399, ../sass/layouts/_responsive.scss */
+  /* line 450, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 {
     *position: relative;
     *zoom: 1;
@@ -1532,7 +1585,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
   .views-responsive-grid.views-columns-4:after {
     clear: both;
   }
-  /* line 403, ../sass/layouts/_responsive.scss */
+  /* line 454, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 .views-column-1 {
     float: left;
     width: 25%;
@@ -1547,7 +1600,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 406, ../sass/layouts/_responsive.scss */
+  /* line 457, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 .views-column-2 {
     float: left;
     width: 25%;
@@ -1562,7 +1615,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 409, ../sass/layouts/_responsive.scss */
+  /* line 460, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 .views-column-3 {
     float: left;
     width: 25%;
@@ -1577,7 +1630,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 412, ../sass/layouts/_responsive.scss */
+  /* line 463, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 .views-column-4 {
     float: left;
     width: 25%;
@@ -2599,35 +2652,11 @@ body {
   color: #DA6A27;
 }
 
-/* line 66, ../sass/_varisco.scss */
-#block-block-1 {
-  font-size: 1em;
-  font-size: 1vw;
-  padding-left: 10px;
-}
-/* line 70, ../sass/_varisco.scss */
-#block-block-1 p {
-  color: #494849;
-  font-weight: bold;
-  line-height: 1.25em;
-  margin: 0;
-  padding: 0;
-}
-/* line 77, ../sass/_varisco.scss */
-#block-block-1 .studio-address {
-  font-size: 0.74em;
-  font-size: 0.74vw;
-}
-/* line 85, ../sass/_varisco.scss */
-#block-block-1 .studio-email a {
-  color: #C15D21;
-}
-
-/* line 91, ../sass/_varisco.scss */
+/* line 67, ../sass/_varisco.scss */
 #block-system-main-menu h2 {
   display: none;
 }
-/* line 94, ../sass/_varisco.scss */
+/* line 70, ../sass/_varisco.scss */
 #block-system-main-menu ul {
   font-size: 4em;
   font-size: 4.5vw;
@@ -2636,58 +2665,58 @@ body {
   padding: 0 0 0 10px;
   text-transform: uppercase;
 }
-/* line 102, ../sass/_varisco.scss */
+/* line 78, ../sass/_varisco.scss */
 #block-system-main-menu ul li {
   list-style: none;
   list-style-position: outside;
 }
-/* line 105, ../sass/_varisco.scss */
+/* line 81, ../sass/_varisco.scss */
 #block-system-main-menu ul li a {
   color: #717272;
   text-decoration: none;
 }
-/* line 109, ../sass/_varisco.scss */
+/* line 85, ../sass/_varisco.scss */
 #block-system-main-menu ul li a:hover, #block-system-main-menu ul li a.active-trail {
   color: #DA6A27;
 }
 
-/* line 116, ../sass/_varisco.scss */
+/* line 92, ../sass/_varisco.scss */
 .mean-container .mean-bar {
   background: none repeat scroll 0 0 transparent;
 }
-/* line 119, ../sass/_varisco.scss */
+/* line 95, ../sass/_varisco.scss */
 .mean-container a.meanmenu-reveal {
   background: none repeat scroll 0 0 #717272;
 }
-/* line 121, ../sass/_varisco.scss */
+/* line 97, ../sass/_varisco.scss */
 .mean-container a.meanmenu-reveal span {
   background: none repeat scroll 0 0 #FFFFFF;
   display: block;
 }
-/* line 125, ../sass/_varisco.scss */
+/* line 101, ../sass/_varisco.scss */
 .mean-container a.meanmenu-reveal span.mean-head {
   background: none repeat scroll 0 0 transparent;
   color: #FFFFFF;
 }
-/* line 130, ../sass/_varisco.scss */
+/* line 106, ../sass/_varisco.scss */
 .mean-container .mean-nav {
   background: none repeat scroll 0 0 #717272;
 }
-/* line 132, ../sass/_varisco.scss */
+/* line 108, ../sass/_varisco.scss */
 .mean-container .mean-nav h2 {
   color: #FFFFFF;
 }
-/* line 135, ../sass/_varisco.scss */
+/* line 111, ../sass/_varisco.scss */
 .mean-container .mean-nav ul li a {
   background: none repeat scroll 0 0 #717272;
   color: #FFFFFF;
 }
-/* line 139, ../sass/_varisco.scss */
+/* line 115, ../sass/_varisco.scss */
 .mean-container .mean-nav ul li a:hover {
   background: none repeat scroll 0 0 #717272;
   color: #DA6A27;
 }
-/* line 143, ../sass/_varisco.scss */
+/* line 119, ../sass/_varisco.scss */
 .mean-container .mean-nav ul li a.mean-expand:hover {
   background: none repeat scroll 0 0 #717272;
 }

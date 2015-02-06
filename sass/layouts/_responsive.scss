@@ -57,7 +57,7 @@ $zen-auto-include-item-base: false;
   width: 100%;
 }
   h1.header__site-name {
-    line-height: 1em;
+    line-height: 1.25em;
     a {
       &:link,
       &:visited {
@@ -67,6 +67,9 @@ $zen-auto-include-item-base: false;
   }
   .header__name-and-slogan {
     float: none;
+  }
+  #block-block-2 {
+    margin-bottom: 0;
   }
 /* Containers for grid items and flow items. */
 #header,
@@ -142,6 +145,31 @@ $zen-auto-include-item-base: false;
   #main {
     padding-top: 1em;
   }
+#block-block-1 {
+  font-size: 1em;
+  font-size: 1vw;
+  padding-left: 10px;
+  p {
+    color: $dark-gray;
+    font-weight: bold;
+    line-height: 1.25em;
+    margin: 0;
+    padding: 0;
+  }
+  .studio-address {
+    font-size: 0.74em;
+    font-size: 0.74vw;
+  }
+  .studio-phone {
+
+  }
+  .studio-email {
+    a {
+      color: $med-orange;
+    }
+  }
+}
+  
   /**
    * The layout when there is only one sidebar, the left one.
    */
@@ -308,7 +336,30 @@ $zen-auto-include-item-base: false;
   .header__name-and-slogan {
     float: left;
   }
+#block-block-1 {
+  font-size: 1em;
+  font-size: 1vw;
+  padding-left: 10px;
+  p {
+    color: $dark-gray;
+    font-weight: bold;
+    line-height: 1.25em;
+    margin: 0;
+    padding: 0;
+  }
+  .studio-address {
+    font-size: 0.74em;
+    font-size: 0.74vw;
+  }
+  .studio-phone {
 
+  }
+  .studio-email {
+    a {
+      color: $med-orange;
+    }
+  }
+}
   .region-highlighted {
   //  @include zen-grid-container($context: none);
   //  @include zen-grid-item(5, 1);    
