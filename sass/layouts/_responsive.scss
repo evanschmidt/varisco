@@ -57,7 +57,10 @@ $zen-auto-include-item-base: false;
   width: 100%;
 }
   h1.header__site-name a {
-    color: $white;
+    &:link,
+    &:visited {
+      color: $white;
+    }
   }
 /* Containers for grid items and flow items. */
 #header,
@@ -110,6 +113,12 @@ $zen-auto-include-item-base: false;
     line-height: 1em;
     font-weight: normal;
     margin-bottom: 0.5em; 
+    a {
+      &:link,
+      &:visited {
+        color: $dark-orange;
+      }      
+    }
   }
    #page {
    margin-left: 20px;
@@ -280,6 +289,12 @@ $zen-auto-include-item-base: false;
     line-height: 1em;
     font-weight: normal;
     margin-bottom: 0.5em; 
+    a {
+      &:link,
+      &:visited {
+        color: $dark-orange;
+      }      
+    }
   }
   .region-highlighted {
   //  @include zen-grid-container($context: none);
