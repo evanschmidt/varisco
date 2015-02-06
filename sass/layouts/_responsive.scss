@@ -191,6 +191,9 @@ $zen-auto-include-item-base: false;
     }
   }
 }
+  #block-block-2 {
+    margin-bottom: 2em;
+  }
 
   /**
    * The layout when there is only one sidebar, the left one.
@@ -382,6 +385,9 @@ $zen-auto-include-item-base: false;
     }
   }
 }
+  #block-block-2 {
+    margin-bottom: 2em;
+  }
   .region-highlighted {
   //  @include zen-grid-container($context: none);
   //  @include zen-grid-item(5, 1);    
