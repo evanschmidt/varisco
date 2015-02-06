@@ -13,7 +13,7 @@ body {
   background: none repeat scroll 0 0 $light-gray;
   min-height: 100%;
 }
-#block-system-main-menu h2 {
+.header__site-name,#block-system-main-menu h2 {
   font-size: 1em;
   font-size: 1vw;
   line-height: 1em;
@@ -60,6 +60,30 @@ body {
 	a {
 		color: $dark-orange;
 	}
+}
+#block-block-1 {
+  font-size: 1em;
+  font-size: 1vw;
+  padding-left: 10px;
+  p {
+    color: $dark-gray;
+    font-weight: bold;
+    line-height: 1.25em;
+    margin: 0;
+    padding: 0;
+  }
+  .studio-address {
+    font-size: 0.74em;
+    font-size: 0.74vw;
+  }
+  .studio-phone {
+
+  }
+  .studio-email {
+    a {
+      color: $med-orange;
+    }
+  }
 }
 #block-system-main-menu {
   h2 {
