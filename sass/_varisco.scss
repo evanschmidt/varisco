@@ -26,6 +26,9 @@ body {
 #content {
 	margin-top: 0em;
 }
+.page__title {
+  color: $dark-gray;
+}
 .page-node .page__title {
   color: $dark-orange;
   display: block;
