@@ -28,6 +28,8 @@ body {
 }
 .page__title {
   color: $dark-gray;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .page-node .page__title {
   color: $dark-orange;
