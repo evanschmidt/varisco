@@ -93,6 +93,10 @@ $zen-auto-include-item-base: false;
   #block-block-2 {
     margin-bottom: 0;
   }
+#content {
+  margin-top: 6em;
+}
+
 /* Containers for grid items and flow items. */
 #header,
 #main,
@@ -195,6 +199,9 @@ $zen-auto-include-item-base: false;
   #block-block-2 {
     margin-bottom: 2em;
   }
+#content {
+  margin-top: 0em;
+}
 
   /**
    * The layout when there is only one sidebar, the left one.
@@ -389,6 +396,9 @@ $zen-auto-include-item-base: false;
   #block-block-2 {
     margin-bottom: 2em;
   }
+#content {
+  margin-top: 0em;
+}
   .region-highlighted {
   //  @include zen-grid-container($context: none);
   //  @include zen-grid-item(5, 1);    
