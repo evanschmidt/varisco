@@ -50,7 +50,7 @@ $zen-auto-include-item-base: false;
   @include zen-grid-item-base();
 }
 .region-sidebar-first {
-  background: $dark-orange;
+  background: none repeat scroll 0 0 $dark-orange;
   position: absolute;
   top: 0;
   left: 0;
@@ -97,6 +97,7 @@ $zen-auto-include-item-base: false;
     width: 40%;
   }
   .region-sidebar-first {
+    background: none repeat scroll 0 0 transparent;
     position: relative;
     top: auto;
     left: auto;
@@ -253,6 +254,7 @@ $zen-auto-include-item-base: false;
     padding-top: 1em;
   }
   .region-sidebar-first {
+    background: none repeat scroll 0 0 transparent;
     position: relative;
     top: auto;
     left: auto;
