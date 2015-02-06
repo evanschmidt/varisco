@@ -101,7 +101,7 @@ $zen-auto-include-item-base: false;
     top: auto;
     left: auto;
   }
-  .header__site-name h1 {
+  h1.header__site-name {
     font-size: 1em;
     font-size: 1.25vw;
     line-height: 1em;
@@ -271,7 +271,7 @@ $zen-auto-include-item-base: false;
     top: auto;
     left: auto;
   }
-  .header__site-name h1 {
+  h1.header__site-name {
     font-size: 1em;
     font-size: 1.25vw;
     line-height: 1em;
