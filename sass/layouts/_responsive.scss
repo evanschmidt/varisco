@@ -67,7 +67,6 @@ $zen-auto-include-item-base: false;
     width: 100%;
     text-align: center;
   }
-
 /* Navigation bar */
 @media all and (min-width: 480px) {
   #main {
@@ -101,6 +100,13 @@ $zen-auto-include-item-base: false;
     position: relative;
     top: auto;
     left: auto;
+  }
+  .header__site-name {
+    font-size: 1em;
+    font-size: 1.25vw;
+    line-height: 1em;
+    font-weight: normal;
+    margin-bottom: 0.5em; 
   }
    #page {
    margin-left: 20px;
@@ -264,6 +270,13 @@ $zen-auto-include-item-base: false;
     position: relative;
     top: auto;
     left: auto;
+  }
+  .header__site-name {
+    font-size: 1em;
+    font-size: 1.25vw;
+    line-height: 1em;
+    font-weight: normal;
+    margin-bottom: 0.5em; 
   }
   .region-highlighted {
   //  @include zen-grid-container($context: none);
