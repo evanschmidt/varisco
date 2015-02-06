@@ -630,8 +630,15 @@ table {
   *word-wrap: break-word;
 }
 
+/* line 52, ../sass/layouts/_responsive.scss */
+.region-sidebar-first {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /* Containers for grid items and flow items. */
-/* line 54, ../sass/layouts/_responsive.scss */
+/* line 58, ../sass/layouts/_responsive.scss */
 #header,
 #main,
 #footer {
@@ -654,22 +661,23 @@ table {
   clear: both;
 }
 
-/* line 59, ../sass/layouts/_responsive.scss */
+/* line 63, ../sass/layouts/_responsive.scss */
 .masonry-item {
   padding: 10px;
   width: 100%;
+  text-align: center;
 }
 
 /* Navigation bar */
 @media all and (min-width: 480px) {
-  /* line 66, ../sass/layouts/_responsive.scss */
+  /* line 71, ../sass/layouts/_responsive.scss */
   #main {
     /* Move all the children of #main down to make room. */
     padding-top: 0em;
     position: relative;
   }
 
-  /* line 71, ../sass/layouts/_responsive.scss */
+  /* line 76, ../sass/layouts/_responsive.scss */
   #navigation {
     /* Move the navbar up inside #main's padding. */
     position: absolute;
@@ -682,13 +690,20 @@ table {
  * Use 3 grid columns for smaller screens.
  */
 @media all and (min-width: 480px) and (max-width: 959px) {
-  /* line 88, ../sass/layouts/_responsive.scss */
+  /* line 93, ../sass/layouts/_responsive.scss */
   .masonry-item {
     padding: 10px;
     width: 40%;
   }
 
-  /* line 93, ../sass/layouts/_responsive.scss */
+  /* line 97, ../sass/layouts/_responsive.scss */
+  .region-sidebar-first {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+
+  /* line 102, ../sass/layouts/_responsive.scss */
   #page {
     margin-left: 20px;
     margin-right: 20px;
@@ -696,7 +711,7 @@ table {
     margin-top: 20px;
   }
 
-  /* line 100, ../sass/layouts/_responsive.scss */
+  /* line 109, ../sass/layouts/_responsive.scss */
   #main {
     padding-top: 1em;
   }
@@ -704,12 +719,12 @@ table {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 106, ../sass/layouts/_responsive.scss */
+  /* line 115, ../sass/layouts/_responsive.scss */
   .sidebar-first {
     /* Span 2 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-  /* line 108, ../sass/layouts/_responsive.scss */
+  /* line 117, ../sass/layouts/_responsive.scss */
   .sidebar-first #content {
     float: left;
     width: 66.66667%;
@@ -724,7 +739,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 113, ../sass/layouts/_responsive.scss */
+  /* line 122, ../sass/layouts/_responsive.scss */
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 33.33333%;
@@ -743,12 +758,12 @@ table {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 121, ../sass/layouts/_responsive.scss */
+  /* line 130, ../sass/layouts/_responsive.scss */
   .sidebar-second {
     /* Span 2 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 3rd column from left. */
   }
-  /* line 123, ../sass/layouts/_responsive.scss */
+  /* line 132, ../sass/layouts/_responsive.scss */
   .sidebar-second #content {
     float: left;
     width: 66.66667%;
@@ -763,7 +778,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 128, ../sass/layouts/_responsive.scss */
+  /* line 137, ../sass/layouts/_responsive.scss */
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 33.33333%;
@@ -782,13 +797,13 @@ table {
   /**
    * The layout when there are two sidebars.
    */
-  /* line 136, ../sass/layouts/_responsive.scss */
+  /* line 145, ../sass/layouts/_responsive.scss */
   .two-sidebars {
     /* Span 2 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Start a new row and span all 3 columns. */
   }
-  /* line 138, ../sass/layouts/_responsive.scss */
+  /* line 147, ../sass/layouts/_responsive.scss */
   .two-sidebars #content {
     float: left;
     width: 66.66667%;
@@ -803,7 +818,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 143, ../sass/layouts/_responsive.scss */
+  /* line 152, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 33.33333%;
@@ -818,7 +833,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 148, ../sass/layouts/_responsive.scss */
+  /* line 157, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 100%;
@@ -849,7 +864,7 @@ table {
   .two-sidebars .region-sidebar-second:after {
     clear: both;
   }
-  /* line 154, ../sass/layouts/_responsive.scss */
+  /* line 163, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block {
     padding-left: 10px;
     padding-right: 10px;
@@ -859,7 +874,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 158, ../sass/layouts/_responsive.scss */
+  /* line 167, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     float: left;
     width: 33.33333%;
@@ -875,7 +890,7 @@ table {
     *word-wrap: break-word;
     clear: left;
   }
-  /* line 163, ../sass/layouts/_responsive.scss */
+  /* line 172, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     float: left;
     width: 33.33333%;
@@ -890,7 +905,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 167, ../sass/layouts/_responsive.scss */
+  /* line 176, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     float: left;
     width: 33.33333%;
@@ -906,7 +921,7 @@ table {
     *word-wrap: break-word;
   }
 
-  /* line 173, ../sass/layouts/_responsive.scss */
+  /* line 182, ../sass/layouts/_responsive.scss */
   .views-responsive-grid {
     padding-left: 10px;
     padding-right: 10px;
@@ -928,12 +943,12 @@ table {
     clear: both;
   }
 
-  /* line 178, ../sass/layouts/_responsive.scss */
+  /* line 187, ../sass/layouts/_responsive.scss */
   .views-responsive-grid .views-row {
     clear: left;
   }
 
-  /* line 181, ../sass/layouts/_responsive.scss */
+  /* line 190, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-2 {
     *position: relative;
     *zoom: 1;
@@ -951,7 +966,7 @@ table {
   .views-responsive-grid.views-columns-2:after {
     clear: both;
   }
-  /* line 184, ../sass/layouts/_responsive.scss */
+  /* line 193, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-2 .views-column-1 {
     float: left;
     width: 50%;
@@ -966,7 +981,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 187, ../sass/layouts/_responsive.scss */
+  /* line 196, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-2 .views-column-2 {
     float: left;
     width: 50%;
@@ -982,7 +997,7 @@ table {
     *word-wrap: break-word;
   }
 
-  /* line 191, ../sass/layouts/_responsive.scss */
+  /* line 200, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-3 {
     *position: relative;
     *zoom: 1;
@@ -1000,7 +1015,7 @@ table {
   .views-responsive-grid.views-columns-3:after {
     clear: both;
   }
-  /* line 194, ../sass/layouts/_responsive.scss */
+  /* line 203, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-3 .views-column-1 {
     float: left;
     width: 33.33333%;
@@ -1015,7 +1030,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 197, ../sass/layouts/_responsive.scss */
+  /* line 206, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-3 .views-column-2 {
     float: left;
     width: 33.33333%;
@@ -1030,7 +1045,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 200, ../sass/layouts/_responsive.scss */
+  /* line 209, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-3 .views-column-3 {
     float: left;
     width: 33.33333%;
@@ -1046,7 +1061,7 @@ table {
     *word-wrap: break-word;
   }
 
-  /* line 204, ../sass/layouts/_responsive.scss */
+  /* line 213, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 {
     *position: relative;
     *zoom: 1;
@@ -1069,7 +1084,7 @@ table {
   .views-responsive-grid.views-columns-4:after {
     clear: both;
   }
-  /* line 208, ../sass/layouts/_responsive.scss */
+  /* line 217, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 .views-column-1 {
     float: left;
     width: 50%;
@@ -1084,7 +1099,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 211, ../sass/layouts/_responsive.scss */
+  /* line 220, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 .views-column-2 {
     float: left;
     width: 50%;
@@ -1099,7 +1114,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 214, ../sass/layouts/_responsive.scss */
+  /* line 223, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 .views-column-3 {
     float: left;
     width: 50%;
@@ -1115,7 +1130,7 @@ table {
     *word-wrap: break-word;
     clear: left;
   }
-  /* line 218, ../sass/layouts/_responsive.scss */
+  /* line 227, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 .views-column-4 {
     float: left;
     width: 50%;
@@ -1135,13 +1150,13 @@ table {
  * Use 5 grid columns for larger screens.
  */
 @media all and (min-width: 960px) {
-  /* line 230, ../sass/layouts/_responsive.scss */
+  /* line 239, ../sass/layouts/_responsive.scss */
   .masonry-item {
     padding: 10px;
     width: 20%;
   }
 
-  /* line 234, ../sass/layouts/_responsive.scss */
+  /* line 243, ../sass/layouts/_responsive.scss */
   #page {
     margin-left: 20px;
     margin-right: 20px;
@@ -1149,20 +1164,27 @@ table {
     margin-top: 20px;
   }
 
-  /* line 241, ../sass/layouts/_responsive.scss */
+  /* line 250, ../sass/layouts/_responsive.scss */
   #main {
     padding-top: 1em;
+  }
+
+  /* line 253, ../sass/layouts/_responsive.scss */
+  .region-sidebar-first {
+    position: relative;
+    top: auto;
+    left: auto;
   }
 
   /**
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 252, ../sass/layouts/_responsive.scss */
+  /* line 266, ../sass/layouts/_responsive.scss */
   .sidebar-first {
     /* Span 4 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-  /* line 254, ../sass/layouts/_responsive.scss */
+  /* line 268, ../sass/layouts/_responsive.scss */
   .sidebar-first #content {
     float: left;
     width: 80%;
@@ -1177,7 +1199,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 259, ../sass/layouts/_responsive.scss */
+  /* line 273, ../sass/layouts/_responsive.scss */
   .sidebar-first .region-sidebar-first {
     position: fixed;
     float: left;
@@ -1197,12 +1219,12 @@ table {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 268, ../sass/layouts/_responsive.scss */
+  /* line 282, ../sass/layouts/_responsive.scss */
   .sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-  /* line 270, ../sass/layouts/_responsive.scss */
+  /* line 284, ../sass/layouts/_responsive.scss */
   .sidebar-second #content {
     float: left;
     width: 80%;
@@ -1217,7 +1239,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 275, ../sass/layouts/_responsive.scss */
+  /* line 289, ../sass/layouts/_responsive.scss */
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 20%;
@@ -1236,13 +1258,13 @@ table {
   /**
    * The layout when there are two sidebars.
    */
-  /* line 283, ../sass/layouts/_responsive.scss */
+  /* line 297, ../sass/layouts/_responsive.scss */
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-  /* line 285, ../sass/layouts/_responsive.scss */
+  /* line 299, ../sass/layouts/_responsive.scss */
   .two-sidebars #content {
     float: left;
     width: 60%;
@@ -1257,7 +1279,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 290, ../sass/layouts/_responsive.scss */
+  /* line 304, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 20%;
@@ -1272,7 +1294,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 295, ../sass/layouts/_responsive.scss */
+  /* line 309, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 20%;
@@ -1288,7 +1310,7 @@ table {
     *word-wrap: break-word;
   }
 
-  /* line 300, ../sass/layouts/_responsive.scss */
+  /* line 314, ../sass/layouts/_responsive.scss */
   .views-responsive-grid {
     padding-left: 10px;
     padding-right: 10px;
@@ -1310,12 +1332,12 @@ table {
     clear: both;
   }
 
-  /* line 305, ../sass/layouts/_responsive.scss */
+  /* line 319, ../sass/layouts/_responsive.scss */
   .views-responsive-grid .views-row {
     clear: left;
   }
 
-  /* line 308, ../sass/layouts/_responsive.scss */
+  /* line 322, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-2 {
     *position: relative;
     *zoom: 1;
@@ -1333,7 +1355,7 @@ table {
   .views-responsive-grid.views-columns-2:after {
     clear: both;
   }
-  /* line 311, ../sass/layouts/_responsive.scss */
+  /* line 325, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-2 .views-column-1 {
     float: left;
     width: 50%;
@@ -1348,7 +1370,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 314, ../sass/layouts/_responsive.scss */
+  /* line 328, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-2 .views-column-2 {
     float: left;
     width: 50%;
@@ -1364,7 +1386,7 @@ table {
     *word-wrap: break-word;
   }
 
-  /* line 318, ../sass/layouts/_responsive.scss */
+  /* line 332, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-3 {
     *position: relative;
     *zoom: 1;
@@ -1382,7 +1404,7 @@ table {
   .views-responsive-grid.views-columns-3:after {
     clear: both;
   }
-  /* line 321, ../sass/layouts/_responsive.scss */
+  /* line 335, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-3 .views-column-1 {
     float: left;
     width: 33.33333%;
@@ -1397,7 +1419,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 324, ../sass/layouts/_responsive.scss */
+  /* line 338, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-3 .views-column-2 {
     float: left;
     width: 33.33333%;
@@ -1412,7 +1434,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 327, ../sass/layouts/_responsive.scss */
+  /* line 341, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-3 .views-column-3 {
     float: left;
     width: 33.33333%;
@@ -1428,7 +1450,7 @@ table {
     *word-wrap: break-word;
   }
 
-  /* line 331, ../sass/layouts/_responsive.scss */
+  /* line 345, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 {
     *position: relative;
     *zoom: 1;
@@ -1446,7 +1468,7 @@ table {
   .views-responsive-grid.views-columns-4:after {
     clear: both;
   }
-  /* line 335, ../sass/layouts/_responsive.scss */
+  /* line 349, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 .views-column-1 {
     float: left;
     width: 25%;
@@ -1461,7 +1483,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 338, ../sass/layouts/_responsive.scss */
+  /* line 352, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 .views-column-2 {
     float: left;
     width: 25%;
@@ -1476,7 +1498,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 341, ../sass/layouts/_responsive.scss */
+  /* line 355, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 .views-column-3 {
     float: left;
     width: 25%;
@@ -1491,7 +1513,7 @@ table {
     box-sizing: border-box;
     *word-wrap: break-word;
   }
-  /* line 344, ../sass/layouts/_responsive.scss */
+  /* line 358, ../sass/layouts/_responsive.scss */
   .views-responsive-grid.views-columns-4 .views-column-4 {
     float: left;
     width: 25%;
