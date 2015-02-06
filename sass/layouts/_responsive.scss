@@ -32,8 +32,10 @@ $zen-auto-include-item-base: false;
  */
 #page,
 .region-bottom {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
   max-width: 100%;
 }
 
@@ -89,6 +91,10 @@ $zen-auto-include-item-base: false;
   }
  
   #page {
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   margin-top: 20px;
     //@include zen-grid-background();
   }
   #main {
@@ -227,6 +233,10 @@ $zen-auto-include-item-base: false;
   }
   #page {
     //@include zen-grid-background();
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
   #main {
     padding-top: 1em;
