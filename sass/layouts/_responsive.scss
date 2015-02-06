@@ -68,6 +68,29 @@ $zen-auto-include-item-base: false;
   .header__name-and-slogan {
     float: none;
   }
+  #block-block-1 {
+    padding-left: 10px;
+    p {
+      color: $dark-gray;
+      font-weight: bold;
+      line-height: 1.25em;
+      margin: 0;
+      padding: 0;
+    }
+    .studio-address {
+      font-size: 0.74em;
+      font-size: 0.74vw;
+    }
+    .studio-phone {
+      float: left;
+    }
+    .studio-email {
+      a {
+        color: $dark-gray;
+      }
+    }
+  }
+
   #block-block-2 {
     margin-bottom: 0;
   }
@@ -169,7 +192,7 @@ $zen-auto-include-item-base: false;
     }
   }
 }
-  
+
   /**
    * The layout when there is only one sidebar, the left one.
    */
