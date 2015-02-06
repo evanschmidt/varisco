@@ -50,6 +50,7 @@ $zen-auto-include-item-base: false;
   @include zen-grid-item-base();
 }
 .region-sidebar-first {
+  background: $dark-orange;
   position: absolute;
   top: 0;
   left: 0;
