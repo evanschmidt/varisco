@@ -843,7 +843,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
 
   /* line 221, ../sass/layouts/_responsive.scss */
   .section-studio .page__title {
-    display: none;
+    display: none !important;
   }
   /* line 224, ../sass/layouts/_responsive.scss */
   .section-studio p {
@@ -1382,7 +1382,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
 
   /* line 433, ../sass/layouts/_responsive.scss */
   .section-studio .page__title {
-    display: none;
+    display: none !important;
   }
   /* line 436, ../sass/layouts/_responsive.scss */
   .section-studio p {

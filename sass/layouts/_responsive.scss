@@ -219,7 +219,7 @@ $zen-auto-include-item-base: false;
 }
 .section-studio {
   .page__title {
-    display: none;
+    display: none!important;
   }
   p {
     margin-left: auto;
@@ -431,7 +431,7 @@ $zen-auto-include-item-base: false;
 }
 .section-studio {
   .page__title {
-    display: none;
+    display: none!important;
   }
   p {
     margin-left: auto;
