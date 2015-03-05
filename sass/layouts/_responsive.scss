@@ -433,6 +433,9 @@ $zen-auto-include-item-base: false;
 #block-block-3 {
   padding-left: 10px;
   margin-bottom: 0;
+  p {
+    margin: 0;
+  }
 }
 .section-studio {
   .page__title {
