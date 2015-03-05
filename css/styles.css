@@ -1421,9 +1421,6 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
   /* line 461, ../sass/layouts/_responsive.scss */
   #block-campaignmonitor-454473ba9a4727caea867f18be3bb00b .form-item-email {
     float: right;
-  }
-  /* line 464, ../sass/layouts/_responsive.scss */
-  #block-campaignmonitor-454473ba9a4727caea867f18be3bb00b .form-type-textfield input {
     width: 45%;
   }
   /* line 467, ../sass/layouts/_responsive.scss */
@@ -1433,7 +1430,7 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     color: #717272;
     float: left;
     padding: 3px;
-    width: 45%;
+    width: 35%;
   }
 
   /* line 477, ../sass/layouts/_responsive.scss */

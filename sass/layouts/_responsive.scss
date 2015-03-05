@@ -460,9 +460,9 @@ $zen-auto-include-item-base: false;
   }
   .form-item-email {
     float: right;
+    width: 45%;
   }
   .form-type-textfield input {
-    width: 45%;
   }
   #edit-submit {
     background: none repeat scroll 0 0 $dark-orange;
@@ -470,7 +470,7 @@ $zen-auto-include-item-base: false;
     color: $gray;
     float: left;
     padding: 3px;
-    width: 45%;
+    width: 35%;
   }
 }
 .section-studio {
