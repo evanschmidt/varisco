@@ -443,7 +443,7 @@ $zen-auto-include-item-base: false;
   margin-bottom: 0;
   margin-top: 10px;
   h2 {
-    color: $dark-gray;
+    color: $gray;
     font-size: 1em;
     line-height: 1em;
     margin-bottom: 0;
@@ -457,6 +457,12 @@ $zen-auto-include-item-base: false;
   }
   label {
     display: none;
+  }
+  .form-item-email {
+    float: right;
+  }
+  #edit-submit {
+    float: left;
   }
 }
 .section-studio {
