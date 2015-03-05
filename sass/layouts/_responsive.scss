@@ -406,6 +406,7 @@ $zen-auto-include-item-base: false;
   font-size: 1em;
   font-size: 1vw;
   padding-left: 10px;
+  margin-bottom: 0;
   p {
     color: $dark-gray;
     font-weight: bold;
@@ -428,6 +429,10 @@ $zen-auto-include-item-base: false;
 }
 #block-block-2 {
   margin-bottom: 2em;
+}
+#block-block-3 {
+  padding-left: 10px;
+  margin-bottom: 0;
 }
 .section-studio {
   .page__title {
