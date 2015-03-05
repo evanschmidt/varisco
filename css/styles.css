@@ -1434,7 +1434,8 @@ h1.header__site-name a:link, h1.header__site-name a:visited {
     font-size: 0.85em;
     font-size: 1vw;
     float: left;
-    padding: 3px;
+    padding: 6px;
+    padding: 0.45vw;
   }
 
   /* line 479, ../sass/layouts/_responsive.scss */
