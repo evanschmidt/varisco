@@ -455,6 +455,9 @@ $zen-auto-include-item-base: false;
   .form-item {
     margin: 0;
   }
+  label {
+    display: none;
+  }
 }
 .section-studio {
   .page__title {
