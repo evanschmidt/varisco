@@ -461,7 +461,12 @@ $zen-auto-include-item-base: false;
   .form-item-email {
     float: right;
   }
+  .form-type-textfield input {
+    width: 130px;
+  }
   #edit-submit {
+    background: $dark-orange;
+    color: $gray;
     float: left;
   }
 }
