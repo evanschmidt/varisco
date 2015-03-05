@@ -462,12 +462,14 @@ $zen-auto-include-item-base: false;
     float: right;
   }
   .form-type-textfield input {
-    width: 130px;
+    width: 125px;
   }
   #edit-submit {
-    background: $dark-orange;
+    background: none repeat scroll 0 0 $dark-orange;
+    border: medium none;
     color: $gray;
     float: left;
+    padding: 3px;
   }
 }
 .section-studio {
