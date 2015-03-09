@@ -543,10 +543,10 @@ $zen-auto-include-item-base: false;
   }
   .form-item-email {
     float: left;
+    width: 64%;
   }
   .form-type-textfield input {
-    width: 140px;
-
+    width: 100%;
   }
   #edit-submit {
     background: none repeat scroll 0 0 $dark-orange;
