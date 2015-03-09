@@ -644,7 +644,7 @@ $zen-auto-include-item-base: false;
     /* Span 1 column, starting in 5th column from left. */
     .region-sidebar-second {
       @include zen-grid-item(1, 1,left);
-      clear: both;
+      clear: left;
     }
   }
 // responsive grid layout
