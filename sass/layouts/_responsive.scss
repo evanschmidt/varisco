@@ -633,7 +633,7 @@ $zen-auto-include-item-base: false;
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     #content {
-      @include zen-grid-item(3, 2);
+      @include zen-grid-item(4, 1);
     }
 
     /* Span 1 column, starting in 1st column from left. */
@@ -643,7 +643,7 @@ $zen-auto-include-item-base: false;
 
     /* Span 1 column, starting in 5th column from left. */
     .region-sidebar-second {
-      @include zen-grid-item(1, 5);
+      @include zen-grid-item(1, 1);
     }
   }
 // responsive grid layout
