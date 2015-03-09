@@ -545,7 +545,7 @@ $zen-auto-include-item-base: false;
     float: left;
   }
   .form-type-textfield input {
-    width: 120px;
+    width: 65%;
   }
   #edit-submit {
     background: none repeat scroll 0 0 $dark-orange;
@@ -553,9 +553,10 @@ $zen-auto-include-item-base: false;
     color: $white;
     font-size: 0.85em;
     font-size: 1vw;
-    float: left;
+    float: right;
     padding: 6px;
     padding: 0.45vw;
+    width: 35%;
   }
 }
 .section-studio {
