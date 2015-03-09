@@ -633,7 +633,7 @@ $zen-auto-include-item-base: false;
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     #content {
-      @include zen-grid-item(4, 2,right);
+      @include zen-grid-item(4, 1,right);
     }
 
     /* Span 1 column, starting in 1st column from left. */
