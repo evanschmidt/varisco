@@ -96,7 +96,6 @@ $zen-auto-include-item-base: false;
   margin-bottom: 0;
 }
 #block-block-3 {
-  display: none;
   padding-left: 10px;
   margin-bottom: 0;
   margin-top: 10px;
@@ -105,7 +104,6 @@ $zen-auto-include-item-base: false;
   }
 }
 #block-campaignmonitor-454473ba9a4727caea867f18be3bb00b {
-  display: none;
   padding-left: 10px;
   margin-bottom: 0;
   h2 {
@@ -367,37 +365,18 @@ $zen-auto-include-item-base: false;
   .two-sidebars {
     /* Span 2 columns, starting in 2nd column from left. */
     #content {
-      @include zen-grid-item(2, 2);
+      @include zen-grid-item(2, 1,right);
     }
 
     /* Span 1 column, starting in 1st column from left. */
     .region-sidebar-first {
-      @include zen-grid-item(1, 1);
+      @include zen-grid-item(1, 1,left);
     }
 
     /* Start a new row and span all 3 columns. */
     .region-sidebar-second {
-      @include zen-grid-item(1, 1);
-      @include zen-grid-container(); // Since we're making every block in this region be a grid item.
-      @include zen-new-row();
-
-      /* Apply the shared properties of grid items in a single, efficient ruleset. */
-      .block {
-        @include zen-grid-item-base();
-      }
-      /* Span 1 column, starting in the 1st column from left. */
-      .block:nth-child(3n+1) {
-        @include zen-grid-item(1, 1);
-        //@include zen-new-row();
-      }
-      /* Span 1 column, starting in the 2nd column from left. */
-      .block:nth-child(3n+2) {
-        @include zen-grid-item(1, 1);
-      }
-      /* Span 1 column, starting in the 3rd column from left. */
-      .block:nth-child(3n) {
-        @include zen-grid-item(1, 1);
-      }
+      @include zen-grid-item(1, 1,left);
+      clear: left;
     }
   }
 // responsive grid layout
