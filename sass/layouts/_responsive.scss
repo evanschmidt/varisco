@@ -299,6 +299,7 @@ $zen-auto-include-item-base: false;
   }
   .form-item-email {
     float: left;
+    width: 64%;
   }
   .form-type-textfield input {
     width: 120px;
@@ -312,6 +313,7 @@ $zen-auto-include-item-base: false;
     float: left;
     padding: 6px;
     padding: 1vw;
+    width: 35%;
   }
 }
 .section-studio {
