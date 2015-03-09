@@ -639,12 +639,12 @@ $zen-auto-include-item-base: false;
     /* Span 1 column, starting in 1st column from left. */
     .region-sidebar-first {
       @include zen-grid-item(1, 1);
-      @include zen-new-row();
-  }
+    }
 
     /* Span 1 column, starting in 5th column from left. */
     .region-sidebar-second {
       @include zen-grid-item(1, 1);
+      clear: both;
     }
   }
 // responsive grid layout
