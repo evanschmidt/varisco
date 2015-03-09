@@ -107,6 +107,7 @@ $zen-auto-include-item-base: false;
 #block-campaignmonitor-454473ba9a4727caea867f18be3bb00b {
   padding-left: 10px;
   margin-bottom: 0;
+  text-align: center;
   h2 {
     color: $gray;
     font-size: 1em;
@@ -125,7 +126,7 @@ $zen-auto-include-item-base: false;
     display: none;
   }
   .form-item-email {
-    float: left;
+    float: none;
   }
   .form-type-textfield input {
     width: 120px;
@@ -135,9 +136,9 @@ $zen-auto-include-item-base: false;
     border: medium none;
     color: $white;
     font-size: 1em;
-    float: left;
+    float: none;
     padding: 6px;
-    padding: 0.45em;
+    padding: 0.25em;
   }
 }
 .section-studio {
