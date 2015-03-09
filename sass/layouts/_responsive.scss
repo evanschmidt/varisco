@@ -99,6 +99,7 @@ $zen-auto-include-item-base: false;
   padding-left: 10px;
   margin-bottom: 0;
   margin-top: 10px;
+  text-align: center;
   p {
     margin: 0;
   }
@@ -108,8 +109,7 @@ $zen-auto-include-item-base: false;
   margin-bottom: 0;
   h2 {
     color: $gray;
-    font-size: 0.85em;
-    font-size: 1vw;
+    font-size: 1em;
     line-height: 1em;
     margin-bottom: 0;
     margin-top: 5px;
@@ -134,11 +134,10 @@ $zen-auto-include-item-base: false;
     background: none repeat scroll 0 0 $dark-orange;
     border: medium none;
     color: $white;
-    font-size: 0.85em;
-    font-size: 1vw;
+    font-size: 1em;
     float: left;
     padding: 6px;
-    padding: 0.45vw;
+    padding: 0.45em;
   }
 }
 .section-studio {
