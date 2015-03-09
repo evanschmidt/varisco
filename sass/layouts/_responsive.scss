@@ -435,7 +435,7 @@ $zen-auto-include-item-base: false;
   .views-responsive-grid.views-columns-4 {
     $zen-columns:  2 !global;
     @include zen-grid-container($context: flow);
-    @include zen-grid-background($grid-color: #CCC);  
+    //@include zen-grid-background($grid-color: #CCC);  
     .views-column-1 {
       @include zen-grid-item(1, 1);
     }
@@ -633,17 +633,17 @@ $zen-auto-include-item-base: false;
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     #content {
-      @include zen-grid-item(4, 2);
+      @include zen-grid-item(4, 2,right);
     }
 
     /* Span 1 column, starting in 1st column from left. */
     .region-sidebar-first {
-      @include zen-grid-item(1, 1);
+      @include zen-grid-item(1, 1,left);
     }
 
     /* Span 1 column, starting in 5th column from left. */
     .region-sidebar-second {
-      @include zen-grid-item(1, 1);
+      @include zen-grid-item(1, 1,left);
       clear: both;
     }
   }
