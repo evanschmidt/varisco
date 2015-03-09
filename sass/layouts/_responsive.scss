@@ -236,6 +236,12 @@ $zen-auto-include-item-base: false;
   #main {
     padding-top: 1em;
   }
+#block-system-main-menu {
+  ul {
+    font-size: 5em;
+    font-size: 5.5vw;
+  }
+}
 #block-block-1 {
   font-size: 1em;
   font-size: 1vw;
@@ -455,6 +461,12 @@ $zen-auto-include-item-base: false;
   }
   #main {
     padding-top: 1em;
+  }
+  #block-system-main-menu {
+    ul {
+      font-size: 4em;
+      font-size: 4.5vw;
+    }
   }
   .page__title {
     display: none;
