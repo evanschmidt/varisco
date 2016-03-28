@@ -169,6 +169,8 @@ $zen-auto-include-item-base: false;
   @include zen-grid-container();
 }
  .masonry-item {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
     padding: 10px;
     width: 100%;
     text-align: center;
